@@ -1,0 +1,27 @@
+.home {
+  padding: 4rem;
+  min-height: calc(100vh - 60px);
+  overflow: hidden;
+}
+.home h1 {
+  margin-top: 20vh;
+}
+
+.textSecondary {
+  color: #eece1a;
+}
+
+.icons {
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.icon:hover {
+  color: #eece1a;
+  transition: all 0.5s ease-out;
+}

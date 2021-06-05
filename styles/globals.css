@@ -7,10 +7,10 @@
   transition: all 0.5s ease-out;
 }
 .menu-btn .btn-line {
-  width: 28px;
+  width: 45px;
   height: 3px;
-  margin: 0 0 5px 0;
-  background: #fff;
+  margin: 0 0 8px 0;
+  background: rgb(207, 206, 204);
   transition: all 0.5s ease-out;
 }
 .menu-btn.close {
@@ -116,6 +116,8 @@
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -127,12 +129,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
   overflow-y: hidden;
-}
-body#bg-img {
-  /* background: url(../img/background.jpg); */
-  /* background: rgba(68, 68, 68, 0.9), url(../img/background.jpg); */
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 h1,
@@ -154,40 +150,10 @@ h3.sm-heading {
   background: rgba(73, 73, 73, 0.5);
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
 header {
   position: fixed;
   z-index: 2;
   width: 100%;
-}
-
-.text-secondary {
-  color: #eece1a;
-}
-
-main {
-  padding: 4rem;
-  min-height: calc(100vh - 60px);
-}
-main .icons {
-  margin-top: 1rem;
-}
-main .icons a {
-  padding: 0.4rem;
-}
-main .icons a:hover {
-  color: #eece1a;
-  transition: all 0.5s ease-out;
-}
-main#home {
-  overflow: hidden;
-}
-main#home h1 {
-  margin-top: 20vh;
 }
 
 .about-info {
@@ -351,7 +317,7 @@ main#home h1 {
   main {
     padding: 2rem;
   }
-  main #home h1 {
+  main .home h1 {
     margin-top: 10vh;
   }
   main .lg-heading {
