@@ -14,6 +14,7 @@ export default function Home() {
         />
       </Head>
       <main className={styles.home}>
+        <h3 className="md-heading">Portfolio Page</h3>
         <h1 className="lg-heading">
           Mariusz
           <span className={styles.textSecondary}> Golik</span>
@@ -21,13 +22,13 @@ export default function Home() {
         <h2 className="sm-heading">Web Developer, Programmer, Designer.</h2>
         <div className={styles.icons}>
           <Link href="https://github.com">
-            <FaGithub size={42} className={styles.icon} />
+            <FaGithub size={35} className={styles.icon} />
           </Link>
           <Link href="https://www.linkedin.com">
-            <FaLinkedin size={42} className={styles.icon} />
+            <FaLinkedin size={35} className={styles.icon} />
           </Link>
           <Link href="https://twitter.com">
-            <FaTwitter size={42} className={styles.icon} />
+            <FaTwitter size={35} className={styles.icon} />
           </Link>
         </div>
       </main>

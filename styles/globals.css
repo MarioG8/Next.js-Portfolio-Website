@@ -1,10 +1,10 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 50px;
+  top: 50px;
   cursor: pointer;
-  transition: all 0.5s ease-out;
+  transition: all 0.4s ease-out;
 }
 .menu-btn .btn-line {
   width: 46px;
@@ -78,12 +78,12 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: rgb(27, 233, 64);
 }
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 3rem;
+  font-size: 2.3rem;
   /* text-transform: uppercase; */
   padding: 1rem 0;
   font-weight: 400;
@@ -92,8 +92,9 @@
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #eece1a;
-  transform: scale(1.25);
+  /* color: #eece1a; */
+  color: rgb(4, 177, 36);
+  transform: scale(1.15);
 }
 
 .nav-item:nth-child(1) {
@@ -111,6 +112,23 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s;
 }
+
+/* Menu animation bounce */
+/* .menu-btn {
+  animation: bounce 1200ms ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
 
 * {
   margin: 0;
@@ -139,16 +157,22 @@ h2.lg-heading,
 h3.lg-heading {
   font-size: 6rem;
 }
+
+h3.md-heading {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-style: italic;
+  color: #a756c7;
+  /* color: #f55c0a; */
+  /* color: rgb(27, 233, 64); */
+}
+
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
   background: rgba(73, 73, 73, 0.5);
-}
-
-.lg-heading.hide {
-  display: none;
 }
 
 header {

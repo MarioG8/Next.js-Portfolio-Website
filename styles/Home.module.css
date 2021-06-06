@@ -8,7 +8,7 @@
 }
 
 .textSecondary {
-  color: #eece1a;
+  color: rgb(27, 233, 64);
 }
 
 .icons {
@@ -19,9 +19,11 @@
 .icon {
   cursor: pointer;
   margin-right: 1rem;
+  transition: all 0.5s ease-out;
 }
 
 .icon:hover {
-  color: #eece1a;
-  transition: all 0.5s ease-out;
+  /* color: rgb(110, 101, 101); */
+  color: rgb(177, 62, 223);
+  transform: translateY(-5px);
 }

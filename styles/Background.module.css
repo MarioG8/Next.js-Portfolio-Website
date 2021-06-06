@@ -6,8 +6,8 @@
 }
 
 .image {
-  filter: brightness(50%);
+  filter: brightness(30%);
   /* filter: blur(5px); */
-  filter: opacity(50%);
+  filter: opacity(35%);
   z-index: -1;
 }
