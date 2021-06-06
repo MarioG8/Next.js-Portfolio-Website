@@ -60,7 +60,7 @@
 }
 .menu-branding {
   background: #444;
-  transform: translate3d(0, 100%, 0);
+  transform: translate3d(0%, 100%, 0);
   transition: all 0.5s ease-out;
 }
 .menu-branding.show {
@@ -68,6 +68,7 @@
 }
 
 .portrait-img {
+  /* filter: contrast(130%); */
   border-radius: 5px;
 }
 .menu .nav-item {
@@ -137,13 +138,13 @@
 }
 
 body {
-  background: #444;
+  background: rgb(68, 68, 68);
   color: #fff;
   height: 100%;
   margin: 0;
   font-family: "Syne Mono", monospace;
   line-height: 1.5;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 h1,
