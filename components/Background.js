@@ -6,7 +6,7 @@ function Background() {
     <div className={styles.container}>
       <Image
         alt="code on monitor"
-        src="/images/background.jpg"
+        src="/images/code_003.jpg"
         layout="fill"
         objectFit="cover"
         objectPosition="center top"
