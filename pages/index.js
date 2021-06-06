@@ -14,7 +14,7 @@ export default function Home() {
         />
       </Head>
       <main className={styles.home}>
-        <h3 className="md-heading">Portfolio Page</h3>
+        <h3 className={styles.mdHeading}>Portfolio Page</h3>
         <h1 className="lg-heading">
           Mariusz
           <span className={styles.textSecondary}> Golik</span>
