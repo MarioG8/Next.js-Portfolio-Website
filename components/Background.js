@@ -9,7 +9,7 @@ function Background() {
         src="/images/code_003.jpg"
         layout="fill"
         objectFit="cover"
-        objectPosition="center top"
+        objectPosition="center center"
         quality={100}
         className={styles.image}
       />

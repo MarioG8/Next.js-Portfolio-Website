@@ -40,23 +40,23 @@ function Header(props) {
             </Link>
           </li>
           <li className={menu ? "nav-item" : "nav-item show"}>
-            <Link href="about.html">
+            <Link href="/about">
               <a className="nav-link" onClick={closeMenuHandler}>
                 About Me
               </a>
             </Link>
           </li>
           <li className={menu ? "nav-item" : "nav-item show"}>
-            <Link href="work.html">
+            <Link href="/projects">
               <a className="nav-link" onClick={closeMenuHandler}>
-                My Work
+                Projects
               </a>
             </Link>
           </li>
           <li className={menu ? "nav-item" : "nav-item show"}>
-            <Link href="contact.html">
+            <Link href="/contact">
               <a className="nav-link" onClick={closeMenuHandler}>
-                How To Reach Me
+                Contact
               </a>
             </Link>
           </li>
