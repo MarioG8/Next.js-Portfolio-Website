@@ -7,17 +7,17 @@
   transition: all 0.5s ease-out;
 }
 .menu-btn .btn-line {
-  width: 42px;
+  width: 46px;
   height: 3px;
   margin: 0 0 6px 0;
   background: rgb(207, 206, 204);
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
 }
 .menu-btn.close {
-  transform: rotate(180deg);
+  transform: rotate(500deg);
 }
 .menu-btn.close .btn-line:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(7px, 6px);
 }
 .menu-btn.close .btn-line:nth-child(2) {
   opacity: 0;
@@ -249,14 +249,6 @@ header {
 .btn-light {
   background: #c4c4c4;
   color: #333;
-}
-
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
-  height: 60px;
 }
 
 @media screen and (min-width: 1171px) {
