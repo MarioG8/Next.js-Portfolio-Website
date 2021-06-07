@@ -1,9 +1,7 @@
-import Link from "next/link";
 import Head from "next/head";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import styles from "@/styles/Home.module.css";
+import Heading from "@/components/Heading";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Head>
@@ -13,27 +11,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <main className={styles.home}>
-        <h3 className={styles.mdHeading}>Portfolio Page</h3>
-        <h1 className="lg-heading">
-          Mariusz
-          <span className={styles.textSecondary}> Golik</span>
-        </h1>
-        <h2 className="sm-heading">Web Developer, Programmer, Designer.</h2>
-        <div className={styles.icons}>
-          <Link href="https://github.com">
-            <a target="_blank">
-              <FaGithub size={35} className={styles.icon} />
-            </a>
-          </Link>
-          <Link href="https://www.linkedin.com">
-            <FaLinkedin size={35} className={styles.icon} />
-          </Link>
-          <Link href="https://twitter.com">
-            <FaTwitter size={35} className={styles.icon} />
-          </Link>
-        </div>
-      </main>
+      <Heading />
     </>
   );
 }

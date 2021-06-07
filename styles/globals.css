@@ -224,8 +224,9 @@ a {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
+  margin: 1rem 1rem;
 }
 .projects img {
   width: 100%;
