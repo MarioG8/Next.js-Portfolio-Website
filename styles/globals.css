@@ -1,3 +1,19 @@
+:root {
+  --clr-primary: #0e48fe;
+  --clr-primary-hover: #29e6a7;
+  --clr-primary-dark: #039d69;
+  --clr-gray100: #f9fbff;
+  --clr-gray150: #f4f6fb;
+  --clr-gray200: #eef1f6;
+  --clr-gray300: #e1e5ee;
+  --clr-gray400: #767b91;
+  --clr-gray500: #252525;
+  --clr-gray600: #2a324b;
+  --clr-gray700: #161d34;
+  --radius_primary: 0.2rem;
+  --radius_secondary: 0.5rem;
+}
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -151,6 +167,12 @@ body {
   /* overflow-y: hidden; */
 }
 
+header {
+  position: sticky;
+  z-index: 3;
+  width: 100%;
+}
+
 h1,
 h2,
 h3 {
@@ -175,12 +197,6 @@ h3.sm-heading {
 
 .text-secondary {
   color: rgb(27, 233, 64);
-}
-
-header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
 }
 
 .about-info {
@@ -254,7 +270,7 @@ header {
   color: #333;
 }
 
-@media screen and (min-width: 1171px) {
+/* @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -322,4 +338,4 @@ header {
   .projects {
     grid-template-columns: 1fr;
   }
-}
+} */

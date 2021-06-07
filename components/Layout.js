@@ -3,13 +3,14 @@ import Footer from "./Footer";
 import Header from "./Header";
 import { useRouter } from "next/router";
 
-function Layout(props) {
+function Layout({ children }) {
   const router = useRouter();
   return (
     <>
       <Header />
-      <Background />
-      <main>{props.children}</main>
+      {router.pathname === "/" ? <Background /> : null}
+      {/* <Background /> */}
+      <main>{children}</main>
       {router.pathname !== "/" ? <Footer /> : null}
     </>
   );
