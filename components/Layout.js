@@ -1,16 +1,16 @@
 import Background from "./Background";
 import Footer from "./Footer";
-import Header from "./Header";
+import Menu from "./Menu";
 import { useRouter } from "next/router";
 
 function Layout({ children }) {
   const router = useRouter();
   return (
     <>
-      <Header />
+      <Menu />
       {router.pathname === "/" ? <Background /> : null}
       {/* <Background /> */}
-      <main>{children}</main>
+      <main className="main-content">{children}</main>
       {router.pathname !== "/" ? <Footer /> : null}
     </>
   );

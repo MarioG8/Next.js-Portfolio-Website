@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -22,7 +22,9 @@ export default function Home() {
         <h2 className="sm-heading">Web Developer, Programmer, Designer.</h2>
         <div className={styles.icons}>
           <Link href="https://github.com">
-            <FaGithub size={35} className={styles.icon} />
+            <a target="_blank">
+              <FaGithub size={35} className={styles.icon} />
+            </a>
           </Link>
           <Link href="https://www.linkedin.com">
             <FaLinkedin size={35} className={styles.icon} />
