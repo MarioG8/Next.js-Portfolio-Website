@@ -8,10 +8,10 @@ function Layout({ children }) {
   return (
     <>
       <Menu />
-      {router.pathname === "/" ? <Background /> : null}
+      {router.pathname === "/" && <Background />}
       {/* <Background /> */}
       <main className="main-content">{children}</main>
-      {router.pathname !== "/" ? <Footer /> : null}
+      {router.pathname !== "/" && <Footer />}
     </>
   );
 }

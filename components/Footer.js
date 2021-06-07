@@ -7,9 +7,14 @@ function Footer() {
       <footer className={styles.footer}>
         <p>
           &copy; {new Date().getFullYear()}
-          <span>All Rights Reserved Portfolio by MarioG8 </span>Built with{" "}
+          <span>
+            All Rights Reserved Portfolio by MarioG8 <br></br>
+          </span>
+          Built with{" "}
           <Link href="https://www.nextjs.com/">
-            <a className={styles.footerLink}>Next.js</a>
+            <a target="_blank" className={styles.footerLink}>
+              Next.js
+            </a>
           </Link>
         </p>
       </footer>
