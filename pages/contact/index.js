@@ -33,9 +33,7 @@ function ContactPage() {
             </div>
           </div>
         </div>
-        <div className={styles.form_container}>
-          <FormContact />
-        </div>
+        <FormContact />
       </main>
     </>
   );

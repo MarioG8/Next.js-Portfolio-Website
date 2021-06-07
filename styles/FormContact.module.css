@@ -1,3 +1,9 @@
+.form_container {
+  width: 550px;
+  /* padding-right: 3rem;
+  padding-top: 5rem; */
+}
+
 .auth {
   border-radius: 5px;
   max-width: 500px;
