@@ -2,10 +2,15 @@ import Showcase from "@/components/Showcase";
 import ShowcaseSec from "@/components/ShowcaseSec";
 import styles from "@/styles/Contact.module.css";
 import { BiMessageDetail } from "react-icons/bi";
+import Head from "next/head";
 
 function ContactPage() {
   return (
     <>
+      <Head>
+        <title>Contact Me</title>
+        <meta name="description" content="Send me your messages!" />
+      </Head>
       <Showcase />
       {/* <ShowcaseSec /> */}
       <main className={styles.contact}>
@@ -46,7 +51,6 @@ function ContactPage() {
                 <label htmlFor="message">message</label>
                 <textarea name="message" id="message"></textarea>
               </div>
-
               <input type="submit" value="Send Message" className="btn" />
             </form>
           </div>
