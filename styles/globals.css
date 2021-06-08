@@ -94,24 +94,22 @@
 .menu .nav-item.show {
   transform: translate3d(0, 0, 0);
 }
-.menu .nav-item.current > a {
+/* .menu .nav-item.current > a {
   color: rgb(27, 233, 64);
-}
+} */
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 2.3rem;
+  font-size: 1.7rem;
+  font-weight: 300;
   /* text-transform: uppercase; */
-  padding: 1rem 0;
-  font-weight: 400;
-  color: #fff;
+  padding: 1.2rem 0;
+  color: rgba(200, 200, 200, 0.842);
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  /* color: #eece1a; */
-  color: rgb(4, 177, 36);
-  transform: scale(1.15);
+  text-decoration: underline;
 }
 
 .nav-item:nth-child(1) {

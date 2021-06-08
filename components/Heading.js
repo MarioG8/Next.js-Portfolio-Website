@@ -1,6 +1,8 @@
 import styles from "@/styles/Heading.module.css";
 import { FaGithub, FaTwitter } from "react-icons/fa";
-import { GiMailbox } from "react-icons/gi";
+// import { GiMailbox } from "react-icons/gi";
+import { SiMailDotRu } from "react-icons/si";
+import { GrMail } from "react-icons/gr";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import Link from "next/link";
 
@@ -13,19 +15,19 @@ function Header() {
       </h1>
       <h2 className="sm-heading">Web Developer, Programmer, Designer.</h2>
       <div className={styles.icons}>
-        <Link href="https://github.com">
-          <a target="_blank">
-            <FaGithub size={36} className={styles.icon} />
-          </a>
-        </Link>
         <Link href="mailto:golikmariusz@yahoo.com">
           <a>
-            <GiMailbox size={36} className={styles.icon} />
+            <GrMail size={36} className={styles.icon} />
           </a>
         </Link>
         <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
           <a target="_blank">
             <IoCodeSlashOutline size={36} className={styles.icon} />
+          </a>
+        </Link>
+        <Link href="https://github.com">
+          <a target="_blank">
+            <FaGithub size={36} className={styles.icon} />
           </a>
         </Link>
       </div>
