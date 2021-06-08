@@ -77,6 +77,26 @@ function ContactPage() {
               </Link>
             </div>
           </div>
+          <div className={styles.event}>
+            <div className={styles.img}>
+              <Image
+                src="/images/projects/project_000.png"
+                width={350}
+                height={200}
+              />
+            </div>
+
+            <div className={styles.info}>
+              Mariusz Golik
+              <h3>Name</h3>
+            </div>
+
+            <div className={styles.link}>
+              <Link href="#">
+                <a className="btn">Details</a>
+              </Link>
+            </div>
+          </div>
         </div>
         <FormContact />
       </main>
