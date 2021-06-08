@@ -1,0 +1,31 @@
+.home {
+  padding: 5rem;
+  min-height: calc(100vh - 60px);
+  overflow: hidden;
+}
+.home h1 {
+  margin-top: 20vh;
+}
+
+.textSecondary {
+  /* color: var(--alternative-color); */
+  color: rgb(30, 154, 221);
+  text-shadow: 1px 3px 4px rgb(30, 154, 221);
+}
+
+.icons {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.icon {
+  color: rgba(200, 200, 200, 0.842);
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: all 0.5s ease-out;
+}
+
+.icon:hover {
+  color: var(--primary-color);
+  transform: translateY(-5px);
+}

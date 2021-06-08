@@ -6,10 +6,10 @@ function Background() {
     <div className={styles.container}>
       <Image
         alt="code on monitor"
-        src="/images/code_003.jpg"
+        src="/images/code_011.jpg"
         layout="fill"
         objectFit="cover"
-        objectPosition="center center"
+        objectPosition="50% 79%"
         quality={100}
         className={styles.image}
       />
