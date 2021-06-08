@@ -1,6 +1,7 @@
 import styles from "@/styles/Home.module.css";
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import { GiMailbox } from "react-icons/gi";
+import { IoCodeSlashOutline } from "react-icons/io5";
 import Link from "next/link";
 
 function Header() {
@@ -15,17 +16,17 @@ function Header() {
       <div className={styles.icons}>
         <Link href="https://github.com">
           <a target="_blank">
-            <FaGithub size={35} className={styles.icon} />
+            <FaGithub size={33} className={styles.icon} />
           </a>
         </Link>
         <Link href="mailto:golikmariusz@yahoo.com">
           <a>
-            <GiMailbox size={35} className={styles.icon} />
+            <GiMailbox size={33} className={styles.icon} />
           </a>
         </Link>
-        <Link href="https://twitter.com">
+        <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
           <a target="_blank">
-            <FaTwitter size={35} className={styles.icon} />
+            <IoCodeSlashOutline size={33} className={styles.icon} />
           </a>
         </Link>
       </div>
