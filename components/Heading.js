@@ -8,7 +8,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <main className={styles.home}>
+    <main className={styles.header}>
       <h1 className="lg-heading">
         Mariusz
         <span className={styles.textSecondary}> Golik</span>

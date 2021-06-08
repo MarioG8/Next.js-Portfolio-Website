@@ -10,8 +10,12 @@ function FormContact() {
         </h1>
         <form>
           <div>
-            <label htmlFor="username">Username</label>
-            <input type="text" id="username" />
+            <label htmlFor="firstname">First Name</label>
+            <input type="text" id="firstname" />
+          </div>
+          <div>
+            <label htmlFor="lastname">Last Name</label>
+            <input type="text" id="lastname" />
           </div>
           <div>
             <label htmlFor="email">Email Address</label>

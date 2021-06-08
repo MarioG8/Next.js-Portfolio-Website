@@ -32,7 +32,7 @@ function Header(props) {
           </div>
         </div>
         <ul className={menu ? "menu-nav" : "menu-nav show"}>
-          <li className={menu ? "nav-item current" : "nav-item show"}>
+          <li className={menu ? "nav-item" : "nav-item show"}>
             <Link href="/">
               <a className="nav-link" onClick={closeMenuHandler}>
                 Home

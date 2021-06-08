@@ -19,5 +19,5 @@
 
 .footerLink {
   text-decoration: none;
-  color: rgb(97, 4, 246);
+  color: var(--alternative-color-five);
 }

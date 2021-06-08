@@ -3,6 +3,8 @@ import Showcase from "@/components/Showcase";
 import styles from "@/styles/Contact.module.css";
 import Head from "next/head";
 import FormContact from "@/components/FormContact";
+import Image from "next/image";
+import Link from "next/link";
 
 function ContactPage() {
   return (
@@ -15,21 +17,64 @@ function ContactPage() {
       {/* <ShowcaseSec /> */}
       <main className={styles.contact}>
         <div className={styles.contact_container}>
-          <h1 className="lg-heading">
-            Contact
-            <span className="text-secondary">Me</span>
-          </h1>
-          <h2 className="">This is how you can reach me...</h2>
-          <div className={styles.boxes}>
-            <div>
-              <span className="text-secondary">Email: </span> johndoe@test.com
+          <div className={styles.event}>
+            <div className={styles.img}>
+              <Image
+                src="/images/projects/project_000.png"
+                width={350}
+                height={200}
+              />
             </div>
-            <div>
-              <span className="text-secondary">Phone: </span> (555) 555-5555
+
+            <div className={styles.info}>
+              Mariusz Golik
+              <h3>Name</h3>
             </div>
-            <div>
-              <span className="text-secondary">Address: </span> 50 Main st
-              Boston MA 02101
+
+            <div className={styles.link}>
+              <Link href="#">
+                <a className="btn">Details</a>
+              </Link>
+            </div>
+          </div>
+          <div className={styles.event}>
+            <div className={styles.img}>
+              <Image
+                src="/images/projects/project_000.png"
+                width={350}
+                height={200}
+              />
+            </div>
+
+            <div className={styles.info}>
+              Mariusz Golik
+              <h3>Name</h3>
+            </div>
+
+            <div className={styles.link}>
+              <Link href="#">
+                <a className="btn">Details</a>
+              </Link>
+            </div>
+          </div>
+          <div className={styles.event}>
+            <div className={styles.img}>
+              <Image
+                src="/images/projects/project_000.png"
+                width={350}
+                height={200}
+              />
+            </div>
+
+            <div className={styles.info}>
+              Mariusz Golik
+              <h3>Name</h3>
+            </div>
+
+            <div className={styles.link}>
+              <Link href="#">
+                <a className="btn">Details</a>
+              </Link>
             </div>
           </div>
         </div>

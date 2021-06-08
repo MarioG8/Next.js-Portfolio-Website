@@ -4,6 +4,8 @@
   --alternative-color: #3aabd0;
   --alternative-color-two: #41b764;
   --alternative-color-three: #8eef9e;
+  --alternative-color-four: #f28240;
+  --alternative-color-five: #0751a5;
 }
 
 .menu-btn {
@@ -102,7 +104,6 @@
   position: relative;
   font-size: 1.7rem;
   font-weight: 300;
-  /* text-transform: uppercase; */
   padding: 1.2rem 0;
   color: rgba(200, 200, 200, 0.842);
   text-decoration: none;
@@ -196,12 +197,12 @@ a {
 
 .btn {
   display: inline-block;
-  background: #b60fb0d3;
+  background: var(--alternative-color-five);
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;
   border: 0;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .btn:hover {
@@ -243,8 +244,6 @@ a {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  padding-left: 3rem;
-  padding-top: 3rem;
 }
 
 .about-info {
@@ -325,7 +324,7 @@ a {
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 24px;
+    font-size: 1.7rem;
   }
   .menu-branding {
     height: 25vh;
