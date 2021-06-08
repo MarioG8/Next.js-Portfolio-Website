@@ -4,6 +4,17 @@
   padding-top: 5rem; */
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
 .auth {
   border-radius: 5px;
   max-width: 500px;
