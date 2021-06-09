@@ -7,7 +7,7 @@
   --alternative-color-four: #f28240;
   --alternative-color-five: #0751a5;
   --primary-text-color: hsla(0, 0%, 78%, 0.842);
-  --secondary-text-color: rgba(175, 31, 156, 0.712);
+  --secondary-text-color: rgb(175, 31, 156);
   --alternative-text-color: rgba(3, 246, 15, 0.527);
 }
 
@@ -200,7 +200,8 @@ a {
 
 .btn {
   display: inline-block;
-  background: var(--alternative-color-five);
+  /* background: var(--alternative-color-five); */
+  background: var(--secondary-text-color);
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;

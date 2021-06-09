@@ -63,7 +63,7 @@
   border: 1px solid #dbe0ea;
 }
 
-@media (max-width: 866px) {
+@media (max-width: 699px) {
   .auth {
     max-width: 400px;
   }

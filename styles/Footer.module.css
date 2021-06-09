@@ -19,7 +19,7 @@
 
 .footerLink {
   text-decoration: none;
-  color: var(--alternative-color-five);
+  color: blue;
 }
 
 @media (max-width: 699px) {

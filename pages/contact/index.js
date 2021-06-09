@@ -22,19 +22,19 @@ function ContactPage() {
             img="/images/phone_001.jpg"
             title="(---------)+48 799-11-33-59"
             subtitle="Phone Number"
-            icon={<FaPhoneSquareAlt size={45} color="green" />}
+            icon={<FaPhoneSquareAlt size={45} />}
           />
           <Item
             img="/images/mailbox_001.jpg"
             title="golikmariusz@yahoo.com"
             subtitle="Email Address"
-            icon={<IoMdMail size={45} color="red" />}
+            icon={<IoMdMail size={45} />}
           />
           <Item
             img="/images/cracow_001.jpg"
             title="Cracow 30-698 Familijna 5"
             subtitle="Address"
-            icon={<ImAddressBook size={45} color="#0751a5" />}
+            icon={<ImAddressBook size={45} />}
           />
         </div>
         <FormContact />
