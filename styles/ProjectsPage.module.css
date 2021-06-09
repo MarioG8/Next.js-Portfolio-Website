@@ -1,19 +1,18 @@
 .projects {
   /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1rem; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem; */
   padding-bottom: 3rem;
   background: #fff;
-  color: #000;
+  color: var(--alternative-text-color-two);
   min-height: 100vh;
-}
-
-.projects_container {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 28rem));
+  place-content: center;
   justify-content: center;
-  flex-direction: column;
+  gap: 3rem;
+  padding: 1rem 2rem;
 }
