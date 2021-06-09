@@ -18,33 +18,35 @@ function ProjectsPage() {
       <main className={styles.projects_container}>
         <Card
           img="/images/thunder.jpg"
-          date="28 Nov 2020"
+          date="25 Oct 2020"
           lang="Html,CSS,JS"
           title="Surfing School Website"
-          description="Lorem ipsum dolor sit amet "
-          link="https://killerwhale.netlify.app/"
+          description="Simple weather application based on Html Css and Vanilla JavaScript, external Api from https://api.openweathermap.org/data/2.5/
+          Daily weather around the world, for the city selected by the user. "
+          link="https://weather-application-mario.netlify.app/"
           git="https://github.com/MarioG8?tab=repositories"
         />
         <Card
           img="/images/killerwhale.jpg"
-          date="28 Nov 2020"
+          date="5 Jan 2021"
           lang="Html,CSS,JS"
           title="Surfing School Website"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae cum natus officiis adipisci debitis nesciunt consequuntur, modi voluptates quis, ratione sequi, omnis iusto est."
+          description="Full responsive Single Page Website, built with Html,Sass,Vanilla JavaScript and GSAP animation.Website about water sports Windsurfing and Surfing school."
           link="https://killerwhale.netlify.app/"
           git="https://github.com/MarioG8?tab=repositories"
         />
         <Card
           img="/images/stoa.jpg"
-          date="28 Nov 2020"
-          lang="Html,CSS,JS"
-          title="Surfing School Website"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae cum natus officiis adipisci debitis nesciunt consequuntur, modi voluptates quis, ratione sequi, omnis iusto est."
-          link="https://killerwhale.netlify.app/"
+          date="5 May 2021"
+          lang="React.js,Scss"
+          title="Stoa React Website"
+          description="Full Responsive React website built with React.js and Sass.Website devoted to the subject of stoic philosophy.
+          Golden thoughts of the main characters of this trend and their short biographies "
+          link="https://stoa-app.netlify.app/"
           git="https://github.com/MarioG8?tab=repositories"
         />
         <Card
-          img="/images/background.jpg"
+          img="/images/code_010.jpg"
           date="15 June 2021"
           lang="Next.js"
           title="Portfolio Website"
