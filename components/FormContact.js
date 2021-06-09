@@ -1,6 +1,5 @@
 import styles from "@/styles/FormContact.module.css";
 import { BiMessageDetail, BiMessageRoundedDots } from "react-icons/bi";
-import { MdTextsms } from "react-icons/md";
 
 function FormContact() {
   return (

@@ -3,8 +3,8 @@ import styles from "@/styles/Showcase.module.css";
 function Showcase() {
   return (
     <div className={styles.showcase}>
-      {/* <h1>Contact me</h1>
-      <h2>I am glad to see you on my page.</h2> */}
+      <h1>Contact</h1>
+      <h2>how to reach me (req,res) =&gt;</h2>
     </div>
   );
 }

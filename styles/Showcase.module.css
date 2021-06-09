@@ -6,9 +6,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .showcase::after {
@@ -18,7 +17,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .showcase * {
@@ -26,6 +25,27 @@
 }
 
 .showcase h1 {
-  font-size: 40px;
+  color: var(--secondary-text-color);
+  font-size: 3.5rem;
+  /* font-weight: 550; */
   margin-bottom: 0;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  text-shadow: 1px 2px 3px var(--secondary-text-color);
+}
+.showcase h2 {
+  color: var(--alternative-text-color);
+  font-size: 2.5rem;
+  /* font-weight: 600; */
+  margin-bottom: 0;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  text-shadow: 1px 2px 3px var(--alternative-text-color);
+}
+
+@media (max-width: 600px) {
+  .showcase h1,
+  .showcase h2 {
+    display: none;
+  }
 }

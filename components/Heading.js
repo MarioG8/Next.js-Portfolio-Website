@@ -1,6 +1,5 @@
 import styles from "@/styles/Heading.module.css";
 import { FaGithub, FaTwitter } from "react-icons/fa";
-// import { GiMailbox } from "react-icons/gi";
 import { SiMailDotRu } from "react-icons/si";
 import { GrMail } from "react-icons/gr";
 import { IoCodeSlashOutline } from "react-icons/io5";

@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import Link from "next/link";
 import styles from "@/styles/Item.module.css";
 
 function Item(props) {
@@ -9,7 +8,7 @@ function Item(props) {
         <Image src={props.img} width={350} height={200} />
       </div>
       <div className={styles.info}>
-        {props.subtitle}
+        <h4>{props.subtitle}</h4>
         <h3>{props.title}</h3>
       </div>
       <div className={styles.link}>

@@ -6,6 +6,9 @@
   --alternative-color-three: #8eef9e;
   --alternative-color-four: #f28240;
   --alternative-color-five: #0751a5;
+  --primary-text-color: hsla(0, 0%, 78%, 0.842);
+  --secondary-text-color: rgba(175, 31, 156, 0.712);
+  --alternative-text-color: rgba(3, 246, 15, 0.527);
 }
 
 .menu-btn {

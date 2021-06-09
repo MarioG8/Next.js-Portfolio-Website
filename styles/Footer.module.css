@@ -8,8 +8,8 @@
   color: #000;
   width: 100%;
   height: 4rem;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
 }
 .footer > p {
   font-size: 1.1rem;
@@ -20,4 +20,12 @@
 .footerLink {
   text-decoration: none;
   color: var(--alternative-color-five);
+}
+
+@media (max-width: 699px) {
+  .footer > p {
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
 }
