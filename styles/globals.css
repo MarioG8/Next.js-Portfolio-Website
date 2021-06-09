@@ -4,7 +4,7 @@
   --alternative-color: #3aabd0;
   --alternative-color-two: #41b764;
   --alternative-color-three: #8eef9e;
-  --alternative-color-four: #f28240;
+  --alternative-color-four: rgba(102, 31, 225, 0.705);
   --alternative-color-five: #0751a5;
   --primary-text-color: hsla(0, 0%, 78%, 0.842);
   --secondary-text-color: rgb(175, 31, 156);

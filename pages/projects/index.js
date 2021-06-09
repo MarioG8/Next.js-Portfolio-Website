@@ -12,13 +12,16 @@ function ProjectsPage() {
         <meta name="description" content="Few of my Projects" />
       </Head>
       <ShowcaseSec />
-      <main className={styles.projects}>
+      <div className={styles.projects}>
+        <h2>$My Projects;</h2>
+      </div>
+      <main className={styles.projects_container}>
         <Card
           img="/images/thunder.jpg"
           date="28 Nov 2020"
           lang="Html,CSS,JS"
           title="Surfing School Website"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae cum natus officiis adipisci debitis nesciunt consequuntur, modi voluptates quis, ratione sequi, omnis iusto est."
+          description="Lorem ipsum dolor sit amet "
           link="https://killerwhale.netlify.app/"
           git="https://github.com/MarioG8?tab=repositories"
         />

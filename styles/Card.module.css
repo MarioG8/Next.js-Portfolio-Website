@@ -43,13 +43,14 @@
 }
 .card_links_container > a {
   color: var(--alternative-text-color-two);
-  font-style: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
+  transition: 0.5s ease-in-out;
 }
 .card_links_container > a:hover {
   color: var(--secondary-text-color);
-  text-decoration: underline;
+  transform: scale(1.17);
 }
 
 .card_items {
@@ -59,14 +60,16 @@
 }
 .card_items > p {
   margin-right: 1rem;
-  font-style: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .card_icon {
   margin-right: 1rem;
   color: var(--alternative-text-color-two);
+  transition: 0.4s ease-in-out;
 }
 .card_icon:hover {
   color: var(--secondary-text-color);
+  transform: translateY(-4px);
 }
