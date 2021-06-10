@@ -1,0 +1,21 @@
+.about {
+  background-color: #fff;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.about_container {
+  padding-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.about_txt_wrapper {
+  max-width: 60ch;
+}
+
+.about_img_wrapper {
+  max-width: 500px;
+}
