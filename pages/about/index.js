@@ -22,7 +22,7 @@ function AboutPage() {
           <div className={styles.about_txt_wrapper}>
             <h1>about me</h1>
             <h3>
-              I'm self-tough programmer, designer and Web developer from
+              I'm self-taught programmer, designer and Web developer from
               Cracow,Poland.
             </h3>
             <p>
@@ -71,6 +71,20 @@ function AboutPage() {
               objectFit="cover"
               className={styles.about_image}
             />
+          </div>
+        </div>
+        <div className={styles.about_tech_wrapper}>
+          <div className={styles.about_card}>
+            <div className={styles.about_card_content}>
+              <h2 className={styles.about_card_title}>Awesome Card</h2>
+              <p className={styles.about_card_body}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                blanditiis obcaecati sunt
+              </p>
+              <a href="#" className={styles.about_button}>
+                Show more
+              </a>
+            </div>
           </div>
         </div>
       </section>

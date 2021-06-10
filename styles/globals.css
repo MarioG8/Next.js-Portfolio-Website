@@ -10,6 +10,10 @@
   --secondary-text-color: rgb(175, 31, 156);
   --alternative-text-color: rgba(3, 246, 15, 0.527);
   --alternative-text-color-two: #374151;
+
+  --clr-neutral-900: hsl(207, 19%, 9%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-accent-100: hsl(142, 90%, 61%);
 }
 
 .menu-btn {
@@ -150,9 +154,11 @@
   }
 } */
 
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
 
