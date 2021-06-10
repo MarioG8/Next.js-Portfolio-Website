@@ -13,7 +13,7 @@ function ProjectsPage() {
       </Head>
       <ShowcaseSec />
       <div className={styles.projects}>
-        <h2>$My Projects;</h2>
+        <h2>my projects</h2>
       </div>
       <main className={styles.projects_container}>
         <Card
