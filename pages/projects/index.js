@@ -46,12 +46,12 @@ function ProjectsPage() {
           git="https://github.com/MarioG8?tab=repositories"
         />
         <Card
-          img="/images/code_010.jpg"
+          img="/images/code_016.jpg"
           date="15 June 2021"
           lang="Next.js"
           title="Portfolio Website"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae cum natus officiis adipisci debitis nesciunt consequuntur, modi voluptates quis, ratione sequi, omnis iusto est."
-          link="https://killerwhale.netlify.app/"
+          description="Fully Responsive Website Built with Next.js(one of the best and newest technologies based on React.js) and react icons library.Portfolio page about my biggest passion (programing) and projects which I create as a self-taught programmer."
+          link="/"
           git="https://github.com/MarioG8?tab=repositories"
         />
       </main>
