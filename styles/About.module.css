@@ -95,7 +95,7 @@
 .about_tech_wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 21rem));
-  gap: 4rem;
+  gap: 3.5rem;
   align-items: center;
   justify-content: center;
   min-height: 100vh;

@@ -79,7 +79,7 @@ function AboutPage() {
         </div>
         <div className={styles.about_tech_wrapper}>
           <AwesomeCard
-            img="/images/fundamentals.png"
+            img="/images/html_001.png"
             title="Fundamentals"
             description="Lorem, ipsum dolor sit "
           />
@@ -89,12 +89,12 @@ function AboutPage() {
             description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae delectus velit explicabo excepturi odit !"
           />
           <AwesomeCard
-            img="/images/python_001.jpg"
+            img="/images/python_003.jpg"
             title="Python"
             description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae "
           />
           <AwesomeCard
-            img="/images/code_016.jpg"
+            img="/images/bootcamp5.jpg"
             title="Bootcamps"
             description=" nulla tempore nesciunt!"
           />
