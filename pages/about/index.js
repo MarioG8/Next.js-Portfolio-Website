@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "@/styles/About.module.css";
-import ShowcaseSec from "@/components/ShowcaseSec";
 import { FaGithub } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import ShowcaseThr from "@/components/ShowcaseThr";
 import AwesomeCard from "@/components/AwesomeCard";
+import BootCampCard from "@/components/BootcampCard";
 
 function AboutPage() {
   return (
@@ -96,11 +96,10 @@ function AboutPage() {
             description="Python, Django, NumPy, Matplotlib, Seaborn, Pandas."
             link="https://www.python.org/"
           />
-          <AwesomeCard
+          <BootCampCard
             img="/images/bootcamp5.jpg"
             title="Bootcamps"
             description="JavaScript, Node.js, React.js, Next.js"
-            link="/"
           />
         </div>
       </section>
