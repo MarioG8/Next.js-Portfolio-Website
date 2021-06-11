@@ -15,7 +15,7 @@ function AwesomeCard(props) {
       <div className={styles.about_card_content}>
         <h2 className={styles.about_card_title}>{props.title}</h2>
         <p className={styles.about_card_body}>{props.description}</p>
-        <a href="#" className={styles.about_button}>
+        <a href={props.link} target="_blank" className={styles.about_button}>
           Read more
         </a>
       </div>

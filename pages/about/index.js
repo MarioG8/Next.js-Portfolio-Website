@@ -81,22 +81,26 @@ function AboutPage() {
           <AwesomeCard
             img="/images/html_001.png"
             title="Fundamentals"
-            description="Lorem, ipsum dolor sit "
+            description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, devtools."
+            link="https://developer.mozilla.org/en-US/docs/Learn"
           />
           <AwesomeCard
             img="/images/js.png"
             title="JavaScript"
-            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae delectus velit explicabo excepturi odit !"
+            description="Vanilla JavaScript, Node.js & Express, React.js, Gatsby.js, Next.js."
+            link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           />
           <AwesomeCard
             img="/images/python_003.jpg"
             title="Python"
-            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae "
+            description="Python, Django, NumPy, Matplotlib, Seaborn, Pandas."
+            link="https://www.python.org/"
           />
           <AwesomeCard
             img="/images/bootcamp5.jpg"
             title="Bootcamps"
-            description=" nulla tempore nesciunt!"
+            description="JavaScript, Node.js, React.js, Next.js"
+            link="/"
           />
         </div>
       </section>
