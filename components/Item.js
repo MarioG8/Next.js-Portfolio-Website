@@ -12,8 +12,10 @@ function Item(props) {
         <h3>{props.title}</h3>
       </div>
       <div className={styles.link}>
-        <div div className={styles.icon}>
-          {props.icon}
+        <div>
+          <a className={styles.icon} href={props.link} target="_blank">
+            {props.icon}
+          </a>
         </div>
       </div>
     </div>
