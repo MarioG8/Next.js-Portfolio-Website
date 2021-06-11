@@ -79,7 +79,8 @@ function AboutPage() {
               <h2 className={styles.about_card_title}>Awesome Card</h2>
               <p className={styles.about_card_body}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                blanditiis obcaecati sunt
+                blanditiis obcaecati sunt Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dolore blanditiis obcaecati sunt Lorem ipsum
               </p>
               <a href="#" className={styles.about_button}>
                 Show more

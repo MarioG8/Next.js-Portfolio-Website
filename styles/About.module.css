@@ -55,14 +55,15 @@
 }
 
 .icon {
-  color: rgba(36, 35, 35, 0.76);
+  color: rgba(0, 0, 0, 0.904);
   cursor: pointer;
   margin-right: 1rem;
   transition: all 0.5s ease-out;
 }
 
 .icon:hover {
-  color: var(--secondary-text-color);
+  color: var(--alternative-color);
+  /* color: var(--secondary-text-color); */
   transform: translateY(-5px);
 }
 

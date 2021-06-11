@@ -1,7 +1,7 @@
 :root {
   --primary-color: #1a8ccb;
   --secondary-color: #e30f02;
-  --alternative-color: #3aabd0;
+  --alternative-color: #6724b1;
   --alternative-color-two: #41b764;
   --alternative-color-three: #8eef9e;
   --alternative-color-four: rgba(102, 31, 225, 0.705);
@@ -208,7 +208,7 @@ a {
 .btn {
   display: inline-block;
   /* background: var(--alternative-color-five); */
-  background: var(--secondary-text-color);
+  background: var(--alternative-color);
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;
