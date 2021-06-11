@@ -75,6 +75,14 @@ function AboutPage() {
         </div>
         <div className={styles.about_tech_wrapper}>
           <div className={styles.about_card}>
+            <Image
+              src="/images/code_003.jpg"
+              objectFit="cover"
+              layout="fill"
+              objectFit="cover"
+              quality={100}
+              className={styles.about_img}
+            />
             <div className={styles.about_card_content}>
               <h2 className={styles.about_card_title}>Awesome Card</h2>
               <p className={styles.about_card_body}>

@@ -81,23 +81,30 @@
 
 .about_tech_wrapper {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 21rem));
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
   place-items: center;
   line-height: 1.6;
-  background: var(--clr-neutral-900);
+  /* background: var(--clr-neutral-900); */
+  background-color: #fff;
 }
 
 .about_card {
   color: var(--clr-neutral-100);
-  background-image: url("/images/code_006.jpg");
-  background-size: cover;
+  box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.42);
   padding: 10rem 0 0;
   max-width: 35ch;
   border-radius: 0.5rem;
   overflow: hidden;
   transition: transform 500ms ease;
+  position: relative;
 }
-.about_card:hover {
+
+.about_card:hover,
+.about_card:focus-within {
   transform: scale(1.05);
 }
 
@@ -109,23 +116,6 @@
     hsl(20, 0%, 0%, 0.3) 20%,
     hsl(0, 0%, 0%, 1)
   );
-  transform: translateY(65%);
-  transition: transform 500ms ease;
-}
-
-.about_card:hover .about_card_content {
-  transform: translateY(0);
-  transition-delay: 500ms;
-}
-
-.about_card_content > *:not(.about_card_title) {
-  opacity: 0;
-  transition: opacity 500ms linear;
-}
-
-.about_card:hover .about_card_content > *:not(.about_card_title) {
-  opacity: 1;
-  transition-delay: 1000ms;
 }
 
 .about_card_title {
@@ -141,17 +131,48 @@
   bottom: -2px;
   width: calc(100% + var(--padding));
   background: var(--clr-accent-100);
-  transform: scaleX(0);
   transform-origin: left;
   transition: transform 500ms ease;
 }
 
-.about_card:hover .about_card_title::after {
+.about_card:hover .about_card_title::after,
+.about_card:focus-within .about_card_title::after {
   transform: scaleX(1);
 }
 
 .about_card_body {
   color: rgb(255 255 255 / 0.8);
+}
+
+@media (hover) {
+  .about_card_content {
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .about_card:hover .about_card_content,
+  .about_card:focus-within .about_card_content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .about_card:focus-within .about_card_content {
+    transition-duration: 0ms;
+  }
+
+  .about_card_content > *:not(.about_card_title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  .about_card:hover .about_card_content > *:not(.about_card_title),
+  .about_card:focus-within .about_card_content > *:not(.about_card_title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .about_card_title::after {
+    transform: scaleX(0);
+  }
 }
 
 .about_button {
@@ -167,3 +188,15 @@
 .about_button:focus {
   background-color: var(--clr-neutral-100);
 }
+
+/* @media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition-delay: 0ms !important;
+  }
+} */
