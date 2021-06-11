@@ -9,7 +9,6 @@ function AwesomeCard(props) {
         src={props.img}
         objectFit="cover"
         layout="fill"
-        objectFit="cover"
         quality={100}
         className={styles.about_img}
       />
@@ -17,7 +16,7 @@ function AwesomeCard(props) {
         <h2 className={styles.about_card_title}>{props.title}</h2>
         <p className={styles.about_card_body}>{props.description}</p>
         <a href="#" className={styles.about_button}>
-          {props.btnDesc}
+          Read more
         </a>
       </div>
     </div>

@@ -74,30 +74,29 @@ function AboutPage() {
             />
           </div>
         </div>
+        <div className={styles.about_header_two}>
+          <h1>skills & bootcamps</h1>
+        </div>
         <div className={styles.about_tech_wrapper}>
           <AwesomeCard
             img="/images/fundamentals.png"
-            title="Html5,CSS3"
+            title="Fundamentals"
             description="Lorem, ipsum dolor sit "
-            btnDesc="show more"
           />
           <AwesomeCard
-            img="/images/code_003.jpg"
+            img="/images/js.png"
             title="JavaScript"
             description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae delectus velit explicabo excepturi odit !"
-            btnDesc="show more"
+          />
+          <AwesomeCard
+            img="/images/python_001.jpg"
+            title="Python"
+            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae "
           />
           <AwesomeCard
             img="/images/code_016.jpg"
-            title="JavaScript"
-            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae "
-            btnDesc="show more"
-          />
-          <AwesomeCard
-            img="/images/code_013.jpg"
-            title="JavaScript"
+            title="Bootcamps"
             description=" nulla tempore nesciunt!"
-            btnDesc="read more"
           />
         </div>
       </section>

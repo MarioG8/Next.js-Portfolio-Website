@@ -17,7 +17,7 @@
 
 .about_card:hover,
 .about_card:focus-within {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .about_card_content {
@@ -44,6 +44,7 @@
   bottom: -2px;
   width: calc(100% + var(--padding));
   background: var(--clr-accent-100);
+  /* background: gold; */
   transform-origin: left;
   transition: transform 500ms ease;
 }
@@ -95,6 +96,8 @@
   text-decoration: none;
   color: var(--clr-neutral-900);
   background-color: var(--clr-accent-100);
+  /* background-color: gold; */
+  /* background: var(--alternative-color-two); */
   padding: 0.5em 1.25em;
   border-radius: 0.25em;
 }

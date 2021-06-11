@@ -49,6 +49,19 @@
   border-radius: 5px;
   width: 100%;
 }
+
+.about_header_two > h1 {
+  padding-top: 10rem;
+  margin-left: 12rem;
+  margin-bottom: 1rem;
+  font-size: 4.5rem;
+  line-height: 1.4;
+  font-weight: 900;
+  /* color: var(--secondary-text-color); */
+  color: rgba(0, 0, 0, 0.76);
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.76);
+}
+
 .icons {
   position: relative;
   margin-top: 1rem;
