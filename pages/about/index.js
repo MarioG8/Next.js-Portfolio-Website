@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import ShowcaseThr from "@/components/ShowcaseThr";
+import AwesomeCard from "@/components/AwesomeCard";
 
 function AboutPage() {
   return (
@@ -74,27 +75,30 @@ function AboutPage() {
           </div>
         </div>
         <div className={styles.about_tech_wrapper}>
-          <div className={styles.about_card}>
-            <Image
-              src="/images/code_003.jpg"
-              objectFit="cover"
-              layout="fill"
-              objectFit="cover"
-              quality={100}
-              className={styles.about_img}
-            />
-            <div className={styles.about_card_content}>
-              <h2 className={styles.about_card_title}>Awesome Card</h2>
-              <p className={styles.about_card_body}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                blanditiis obcaecati sunt Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Dolore blanditiis obcaecati sunt Lorem ipsum
-              </p>
-              <a href="#" className={styles.about_button}>
-                Show more
-              </a>
-            </div>
-          </div>
+          <AwesomeCard
+            img="/images/fundamentals.png"
+            title="Html5,CSS3"
+            description="Lorem, ipsum dolor sit "
+            btnDesc="show more"
+          />
+          <AwesomeCard
+            img="/images/code_003.jpg"
+            title="JavaScript"
+            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae delectus velit explicabo excepturi odit !"
+            btnDesc="show more"
+          />
+          <AwesomeCard
+            img="/images/code_016.jpg"
+            title="JavaScript"
+            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestiae "
+            btnDesc="show more"
+          />
+          <AwesomeCard
+            img="/images/code_013.jpg"
+            title="JavaScript"
+            description=" nulla tempore nesciunt!"
+            btnDesc="read more"
+          />
         </div>
       </section>
     </>
