@@ -27,23 +27,27 @@ function AboutPage() {
               Cracow,Poland.
             </h3>
             <p>
-              <strong>Stoicism </strong>is a school of Hellenistic philosophy
-              founded by Zeno of Citium in Athens in the early 3rd century BC.
-              It is a philosophy of personal ethics informed by its system of
-              logic and its views on the natural world. According to its
-              teachings, as social beings, the path to eudaimonia (happiness, or
-              blessedness) is found in accepting the moment as it presents
-              itself
+              <strong>Programming</strong> is my biggest passion.My adventure
+              related to IT started in my first job. I was involved in software
+              and hardware in the mobile phone industry for over two years. It
+              was also where I first encountered web programming. However, my
+              professional career changed direction to finance. From January
+              2020, I decided to return to IT. My goal is to connect with my
+              passion professionally. I am an ambitious, self-taught programmer
+              who loves to learn. I draw my knowledge from traditional sources
+              such as books, as well as bootcamps, tutorials, and internet
+              forums.
             </p>
             <p>
-              <strong>The Stoics </strong>are especially known for teaching that
-              "virtue is the only good" for human beings, and those external
-              things—such as health, wealth, and pleasure—are not good or bad in
-              themselves (adiaphora), but have value as "material for virtue to
-              act upon." Alongside Aristotelian ethics, the Stoic tradition
-              forms one of the major founding approaches to virtue ethics.The
-              Stoics also held that certain destructive emotions resulted from
-              errors of judgment
+              <strong>After learning</strong> the foundations of web programming
+              (Html, Css, Js), my learning focused on Python. Basics of Python
+              and object oriented programming as well as the basics of Data
+              Science and the Pygame library and the Django framework. Currently
+              my favorite programming language is JavaScript. Both from the
+              front-end (React.js Next.js Gatsby.js) and the server (Node.js)
+              side. My strongest side is currently the front-end, but I am doing
+              my best to balance my knowledge and I am also focusing on learning
+              the back-end ( Node.js)
             </p>
             <div className={styles.icons}>
               <Link href="mailto:golikmariusz@yahoo.com">
@@ -87,7 +91,7 @@ function AboutPage() {
           <AwesomeCard
             img="/images/js.png"
             title="JavaScript"
-            description="Vanilla JavaScript, Node.js & Express, React.js, Gatsby.js, Next.js."
+            description="Vanilla JavaScript, Node.js & Express & mongoDB, React.js, Gatsby.js, Next.js."
             link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           />
           <AwesomeCard
