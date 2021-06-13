@@ -11,21 +11,21 @@ function Header() {
         Mariusz
         <span className={styles.textSecondary}> Golik</span>
       </h1>
-      <h2 className="sm-heading">Web Developer, Programmer, Designer.</h2>
+      <h2 className="sm-heading">Web Developer, Designer, Programmer</h2>
       <div className={styles.icons}>
         <Link href="mailto:golikmariusz@yahoo.com">
           <a>
-            <GrMail size={36} className={styles.icon} />
+            <GrMail className={styles.icon} />
           </a>
         </Link>
         <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
           <a target="_blank">
-            <IoCodeSlashOutline size={36} className={styles.icon} />
+            <IoCodeSlashOutline className={styles.icon} />
           </a>
         </Link>
         <Link href="https://github.com">
           <a target="_blank">
-            <FaGithub size={36} className={styles.icon} />
+            <FaGithub className={styles.icon} />
           </a>
         </Link>
       </div>
