@@ -35,8 +35,8 @@ function AboutPage() {
               2020, I decided to return to IT. My goal is to connect with my
               passion professionally. I am an ambitious, self-taught programmer
               who loves to learn. I draw my knowledge from traditional sources
-              such as books, as well as bootcamps, tutorials, and internet
-              forums.
+              such as books, as well as from modern source like bootcamps,
+              tutorials, and internet forums.
             </p>
             <p>
               <strong>After learning</strong> the foundations of web programming
@@ -47,7 +47,9 @@ function AboutPage() {
               front-end (React.js Next.js Gatsby.js) and the server (Node.js)
               side. My strongest side is currently the front-end, but I am doing
               my best to balance my knowledge and I am also focusing on learning
-              the back-end ( Node.js)
+              the back-end ( Node.js)My dream and goal is to create web and
+              mobile applications based on JavaScript language (react.js,
+              next.js - react-native)
             </p>
             <div className={styles.icons}>
               <Link href="mailto:golikmariusz@yahoo.com">
