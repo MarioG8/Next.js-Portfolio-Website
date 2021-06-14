@@ -17,3 +17,12 @@
   justify-content: center;
   flex-direction: column;
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 1rem 1.3rem;
+  }
+  .contact_container {
+    margin-top: 5rem;
+  }
+}

@@ -21,7 +21,7 @@ function ProjectsPage() {
           date="25 Oct 2020"
           lang="Html,CSS,JS"
           title="Surfing School Website"
-          description="Simple weather application based on Html Css and Vanilla JavaScript, external Api from https://api.openweathermap.org/data/2.5/
+          description="Simple weather application based on Html Css and Vanilla JavaScript, external Api from openweathermap.org
           Daily weather around the world, for the city selected by the user. "
           link="https://weather-application-mario.netlify.app/"
           git="https://github.com/MarioG8?tab=repositories"
