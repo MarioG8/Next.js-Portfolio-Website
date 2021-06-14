@@ -169,10 +169,11 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   overflow-x: hidden;
+  position: relative;
 }
 
 header {
-  position: sticky;
+  position: fixed;
   z-index: 3;
   width: 100%;
 }
