@@ -2,7 +2,6 @@ import ShowcaseSec from "@/components/ShowcaseSec";
 import Head from "next/head";
 import styles from "@/styles/Bootcamps.module.css";
 import Item from "@/components/Item";
-import { SiJavascript } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { FaReact } from "react-icons/fa";

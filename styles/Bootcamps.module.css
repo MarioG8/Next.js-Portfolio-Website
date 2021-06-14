@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .bootcamp_container > h2 {
@@ -28,4 +29,16 @@
   /* text-shadow: 3px 6px 9px var(--alternative-color-four); */
   line-height: 1.3;
   font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .bootcamp_container {
+    padding: 1rem 1.3rem;
+  }
+
+  .bootcamp_container > h2 {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-size: 3.5rem;
+  }
 }
