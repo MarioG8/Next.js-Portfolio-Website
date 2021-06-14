@@ -35,28 +35,35 @@ function Header(props) {
           <li className={menu ? "nav-item" : "nav-item show"}>
             <Link href="/">
               <a className="nav-link" onClick={closeMenuHandler}>
-                Home
+                home
               </a>
             </Link>
           </li>
           <li className={menu ? "nav-item" : "nav-item show"}>
             <Link href="/about">
               <a className="nav-link" onClick={closeMenuHandler}>
-                About Me
+                about Me
               </a>
             </Link>
           </li>
           <li className={menu ? "nav-item" : "nav-item show"}>
             <Link href="/projects">
               <a className="nav-link" onClick={closeMenuHandler}>
-                Projects
+                projects
               </a>
             </Link>
           </li>
           <li className={menu ? "nav-item" : "nav-item show"}>
             <Link href="/contact">
               <a className="nav-link" onClick={closeMenuHandler}>
-                Contact
+                contact
+              </a>
+            </Link>
+          </li>
+          <li className={menu ? "nav-item" : "nav-item show"}>
+            <Link href="/bootcamps">
+              <a className="nav-link" onClick={closeMenuHandler}>
+                knowledge
               </a>
             </Link>
           </li>
