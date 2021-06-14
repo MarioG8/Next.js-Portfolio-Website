@@ -1,5 +1,5 @@
 import styles from "@/styles/FormContact.module.css";
-import { BiMessageDetail, BiMessageRoundedDots } from "react-icons/bi";
+import { BiMessageRoundedDots } from "react-icons/bi";
 
 function FormContact() {
   return (
@@ -9,18 +9,18 @@ function FormContact() {
           <BiMessageRoundedDots size={40} className={styles.icon} />
           Send Message
         </h1>
-        <form>
+        <form action="https://formspree.io/f/xrgrkkyz" method="POST">
           <div>
             <label htmlFor="firstname">First Name</label>
-            <input type="text" id="firstname" />
+            <input type="text" id="firstname" name="firstname" />
           </div>
           <div>
             <label htmlFor="lastname">Last Name</label>
-            <input type="text" id="lastname" />
+            <input type="text" id="lastname" name="lastname" />
           </div>
           <div>
             <label htmlFor="email">Email Address</label>
-            <input type="email" id="email" />
+            <input type="email" id="email" name="email" />
           </div>
           <div>
             <label htmlFor="message">Message</label>
