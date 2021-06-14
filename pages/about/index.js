@@ -23,32 +23,45 @@ function AboutPage() {
           <div className={styles.about_txt_wrapper}>
             <h1>about me</h1>
             <h3>
-              I'm self-taught programmer, designer and Web developer from Cracow
+              I'm self-taught programmer, designer and web developer from Cracow
             </h3>
             <p>
-              <strong>Programming</strong> is my biggest passion.My adventure
-              related to IT started in my first job. I was involved in software
-              and hardware in the mobile phone industry for over two years. It
-              was also where I first encountered web programming. However, my
-              professional career changed direction to finance. From January
-              2020, I decided to return to IT. My goal is to connect with my
-              passion professionally. I am an ambitious, self-taught programmer
-              who loves to learn. I draw my knowledge from traditional sources
-              such as books, as well as from modern source like bootcamps,
-              tutorials, and internet forums.
+              <strong className={styles.strong}>Programming</strong> is one of
+              my biggest passion.My adventure related to IT started in my first
+              job. I was involved in software and hardware in the mobile phone
+              industry for over two years. It was also where I first encountered
+              web programming. However, my professional career changed direction
+              to finance.
             </p>
             <p>
-              <strong>After learning</strong> the foundations of web programming
-              (Html, Css, Js), my learning focused on Python. Basics of Python
-              and object oriented programming as well as the basics of Data
-              Science and the Pygame library and the Django framework. Currently
-              my favorite programming language is JavaScript. Both from the
-              front-end Js and frameworks like(React.js Next.js Gatsby.js) and
-              the server side (Node.js). My strongest side is currently the
-              front-end, but I am doing my best to balance my knowledge and I am
-              also focusing on learning the back-end ( Node.js)My dream and goal
-              is to create web and mobile applications based on JavaScript
-              language (react.js, next.js - react-native)
+              <strong className={styles.strong}>From </strong>January 2020, I
+              decided to return to IT. My goal is to connect with my passion
+              professionally. I am an ambitious, self-taught programmer who
+              loves to learn. I draw my knowledge from traditional sources such
+              as books, as well as from more modern source like bootcamps,
+              tutorials, online course and internet forums for coders.
+            </p>
+            <p>
+              <strong className={styles.strong}>After</strong> learning the
+              foundations of web programming (Html, Css, Js), my learning
+              focused on Python. Basics of Python and object oriented
+              programming as well as the basics of Data Science and the Pygame
+              library and the Django framework.
+            </p>
+            <p>
+              <strong className={styles.strong}>Presently</strong> my favorite
+              programming language is JavaScript. Both from the front-end Js and
+              frameworks like(React.js Next.js Gatsby.js) and the server side
+              (Node.js). My stronger side is currently the front-end, but I am
+              doing my best to balance my knowledge and I am also focusing on
+              learning the back-end (Node.js)
+            </p>
+            <p>
+              <strong className={styles.strong}>My</strong> dream and goal,in
+              the near future is to create useful web and mobile applications,
+              based on JavaScript language (React.js,React Native) as well as
+              expand my knowledge, experience, towards full stack JavaScript
+              Developer.
             </p>
             <div className={styles.icons}>
               <Link href="mailto:golikmariusz@yahoo.com">
@@ -72,7 +85,7 @@ function AboutPage() {
             <Image
               src="/images/mario_004.jpg"
               alt="mario"
-              height={670}
+              height={700}
               width={475}
               objectFit="cover"
               className={styles.about_image}
