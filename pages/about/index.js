@@ -23,8 +23,7 @@ function AboutPage() {
           <div className={styles.about_txt_wrapper}>
             <h1>about me</h1>
             <h3>
-              I'm self-taught programmer, designer and Web developer from
-              Cracow,Poland.
+              I'm self-taught programmer, designer and Web developer from Cracow
             </h3>
             <p>
               <strong>Programming</strong> is my biggest passion.My adventure
@@ -44,27 +43,27 @@ function AboutPage() {
               and object oriented programming as well as the basics of Data
               Science and the Pygame library and the Django framework. Currently
               my favorite programming language is JavaScript. Both from the
-              front-end (React.js Next.js Gatsby.js) and the server (Node.js)
-              side. My strongest side is currently the front-end, but I am doing
-              my best to balance my knowledge and I am also focusing on learning
-              the back-end ( Node.js)My dream and goal is to create web and
-              mobile applications based on JavaScript language (react.js,
-              next.js - react-native)
+              front-end Js and frameworks like(React.js Next.js Gatsby.js) and
+              the server side (Node.js). My strongest side is currently the
+              front-end, but I am doing my best to balance my knowledge and I am
+              also focusing on learning the back-end ( Node.js)My dream and goal
+              is to create web and mobile applications based on JavaScript
+              language (react.js, next.js - react-native)
             </p>
             <div className={styles.icons}>
               <Link href="mailto:golikmariusz@yahoo.com">
                 <a>
-                  <GrMail size={36} className={styles.icon} />
+                  <GrMail className={styles.icon} />
                 </a>
               </Link>
               <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
                 <a target="_blank">
-                  <IoCodeSlashOutline size={36} className={styles.icon} />
+                  <IoCodeSlashOutline className={styles.icon} />
                 </a>
               </Link>
               <Link href="https://github.com">
                 <a target="_blank">
-                  <FaGithub size={36} className={styles.icon} />
+                  <FaGithub className={styles.icon} />
                 </a>
               </Link>
             </div>
@@ -73,7 +72,7 @@ function AboutPage() {
             <Image
               src="/images/mario_004.jpg"
               alt="mario"
-              height={650}
+              height={670}
               width={475}
               objectFit="cover"
               className={styles.about_image}
@@ -87,19 +86,19 @@ function AboutPage() {
           <AwesomeCard
             img="/images/html_001.png"
             title="Fundamentals"
-            description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, devtools."
+            description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, Devtools"
             link="https://developer.mozilla.org/en-US/docs/Learn"
           />
           <AwesomeCard
             img="/images/js.png"
             title="JavaScript"
-            description="Vanilla JavaScript, Node.js & Express & mongoDB, React.js, Gatsby.js, Next.js."
+            description="Vanilla JavaScript, Node.js & Express & mongoDB, React.js, Gatsby.js, Next.js"
             link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           />
           <AwesomeCard
             img="/images/python_003.jpg"
             title="Python"
-            description="Python, Django, NumPy, Matplotlib, Seaborn, Pandas."
+            description="Python, Django, NumPy, Matplotlib, Seaborn, Pandas"
             link="https://www.python.org/"
           />
           <BootCampCard

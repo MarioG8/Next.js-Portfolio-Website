@@ -59,36 +59,36 @@
   color: rgb(255 255 255 / 0.8);
 }
 
-@media (hover) {
-  .about_card_content {
-    transform: translateY(65%);
-    transition: transform 500ms ease;
-  }
-  .about_card:hover .about_card_content,
-  .about_card:focus-within .about_card_content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-
-  .about_card:focus-within .about_card_content {
-    transition-duration: 0ms;
-  }
-
-  .about_card_content > *:not(.about_card_title) {
-    opacity: 0;
-    transition: opacity 500ms linear;
-  }
-
-  .about_card:hover .about_card_content > *:not(.about_card_title),
-  .about_card:focus-within .about_card_content > *:not(.about_card_title) {
-    opacity: 1;
-    transition-delay: 1000ms;
-  }
-
-  .about_card_title::after {
-    transform: scaleX(0);
-  }
+/* @media (hover) { */
+.about_card_content {
+  transform: translateY(65%);
+  transition: transform 500ms ease;
 }
+.about_card:hover .about_card_content,
+.about_card:focus-within .about_card_content {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
+.about_card:focus-within .about_card_content {
+  transition-duration: 0ms;
+}
+
+.about_card_content > *:not(.about_card_title) {
+  opacity: 0;
+  transition: opacity 500ms linear;
+}
+
+.about_card:hover .about_card_content > *:not(.about_card_title),
+.about_card:focus-within .about_card_content > *:not(.about_card_title) {
+  opacity: 1;
+  transition-delay: 1000ms;
+}
+
+.about_card_title::after {
+  transform: scaleX(0);
+}
+/* } */
 
 .about_button {
   cursor: pointer;
