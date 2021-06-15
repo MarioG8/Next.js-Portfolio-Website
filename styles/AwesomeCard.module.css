@@ -21,8 +21,9 @@
 }
 
 .about_card_content {
+  position: relative;
   min-height: 20rem;
-  --padding: 1.5rem;
+  --padding: 3rem;
   padding: var(--padding);
   background: linear-gradient(
     hsl(0, 0%, 0%, 0),
@@ -55,40 +56,41 @@
 }
 
 .about_card_body {
+  position: relative;
   margin: 1rem 0;
   color: rgb(255 255 255 / 0.8);
 }
 
-/* @media (hover) { */
-.about_card_content {
-  transform: translateY(65%);
-  transition: transform 500ms ease;
-}
-.about_card:hover .about_card_content,
-.about_card:focus-within .about_card_content {
-  transform: translateY(0);
-  transition-delay: 500ms;
-}
+@media (hover) {
+  .about_card_content {
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .about_card:hover .about_card_content,
+  .about_card:focus-within .about_card_content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
 
-.about_card:focus-within .about_card_content {
-  transition-duration: 0ms;
-}
+  .about_card:focus-within .about_card_content {
+    transition-duration: 0ms;
+  }
 
-.about_card_content > *:not(.about_card_title) {
-  opacity: 0;
-  transition: opacity 500ms linear;
-}
+  .about_card_content > *:not(.about_card_title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
 
-.about_card:hover .about_card_content > *:not(.about_card_title),
-.about_card:focus-within .about_card_content > *:not(.about_card_title) {
-  opacity: 1;
-  transition-delay: 1000ms;
-}
+  .about_card:hover .about_card_content > *:not(.about_card_title),
+  .about_card:focus-within .about_card_content > *:not(.about_card_title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
 
-.about_card_title::after {
-  transform: scaleX(0);
+  .about_card_title::after {
+    transform: scaleX(0);
+  }
 }
-/* } */
 
 .about_button {
   cursor: pointer;
@@ -107,13 +109,13 @@
 }
 
 /* @media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-      scroll-behavior: auto !important;
-      transition-delay: 0ms !important;
-    }
-  } */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition-delay: 0ms !important;
+  }
+} */
