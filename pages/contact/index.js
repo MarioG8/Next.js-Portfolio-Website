@@ -13,7 +13,7 @@ function ContactPage() {
     <>
       <Head>
         <title>Contact Me</title>
-        <meta name="description" content="Send me your messages!" />
+        <meta name="description" content="Send me message!" />
       </Head>
       <Showcase />
       <main className={styles.contact}>

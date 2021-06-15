@@ -11,7 +11,7 @@ function BootcampsPage() {
   return (
     <>
       <Head>
-        <title>Bootcamps</title>
+        <title>Knowledge</title>
         <meta name="description" content="Bootcamps which I passed" />
       </Head>
       <ShowcaseSec />

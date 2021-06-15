@@ -14,7 +14,7 @@ function AboutPage() {
     <>
       <Head>
         <title>About me</title>
-        <meta name="description" content="History of my passion" />
+        <meta name="description" content="About me page" />
       </Head>
 
       <ShowcaseThr />

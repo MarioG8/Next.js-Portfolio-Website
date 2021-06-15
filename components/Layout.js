@@ -9,7 +9,6 @@ function Layout({ children }) {
     <>
       <Menu />
       {router.pathname === "/" && <Background />}
-      {/* <Background /> */}
       <main className="main-content">{children}</main>
       {router.pathname !== "/" && <Footer />}
     </>

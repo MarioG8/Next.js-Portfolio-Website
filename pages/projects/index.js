@@ -9,7 +9,7 @@ function ProjectsPage() {
     <>
       <Head>
         <title>My Projects</title>
-        <meta name="description" content="Few of my Projects" />
+        <meta name="description" content="Couple of my projects" />
       </Head>
       <ShowcaseSec />
       <div className={styles.projects}>
