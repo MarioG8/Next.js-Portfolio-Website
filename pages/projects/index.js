@@ -46,7 +46,7 @@ function ProjectsPage() {
           git="https://github.com/MarioG8?tab=repositories"
         />
         <Card
-          img="/images/code_016.jpg"
+          img="/images/code_011.jpg"
           date="15 June 2021"
           lang="Next.js"
           title="Portfolio Website"

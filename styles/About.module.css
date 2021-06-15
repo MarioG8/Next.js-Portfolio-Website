@@ -13,7 +13,7 @@
 }
 
 .about_txt_wrapper {
-  max-width: 73ch;
+  max-width: 70ch;
 }
 
 .about_txt_wrapper > h1 {
@@ -35,7 +35,7 @@
 
 .about_txt_wrapper > p {
   margin-bottom: 0.5rem;
-  font-size: 1.0625rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
   color: rgba(68, 67, 67, 0.76);
