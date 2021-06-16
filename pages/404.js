@@ -12,6 +12,7 @@ function NotFound() {
           layout="fill"
           objectFit="cover"
           quality={100}
+          className={styles.bgImg}
         />
       </div>
       <p className={styles.bgText}>

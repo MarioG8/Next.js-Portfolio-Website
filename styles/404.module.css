@@ -8,14 +8,18 @@
 
 .bgText {
   margin: 0;
-  font-size: 2rem;
-  line-height: 3rem;
-  text-align: center;
+  font-size: 5rem;
+  line-height: 1.3;
+  text-align: left;
   padding-top: 40vh;
   /* text-shadow: 1px 1px 1px #3c5c5e; */
 }
 
 .bgLink {
   text-decoration: none;
-  color: blue;
+  color: steelblue;
+}
+
+.bgImg {
+  filter: opacity(70%) brightness(80%) blur(1px);
 }
