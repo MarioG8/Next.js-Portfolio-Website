@@ -3,7 +3,6 @@ import styles from "@/styles/Contact.module.css";
 import Head from "next/head";
 import FormContact from "@/components/FormContact";
 import Item from "@/components/Item";
-import { FiPhone } from "react-icons/fi";
 import { IoMdMail } from "react-icons/io";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { ImAddressBook } from "react-icons/im";
