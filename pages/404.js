@@ -6,7 +6,7 @@ import { FaHome } from "react-icons/fa";
 
 function NotFound() {
   return (
-    <section className={styles.notFound}>
+    <>
       <div className={styles.bgWrap}>
         <Image
           alt="Code on the Laptop"
@@ -30,7 +30,7 @@ function NotFound() {
           </a>
         </Link>
       </div>
-    </section>
+    </>
   );
 }
 
