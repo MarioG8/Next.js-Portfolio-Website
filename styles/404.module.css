@@ -56,7 +56,8 @@
 
 .bgImg {
   object-position: bottom;
-  filter: opacity(70%) brightness(80%) blur(1px);
+  /* filter: opacity(70%) brightness(80%) blur(1px); */
+  filter: sepia(100%);
 }
 
 .bgIcon {
