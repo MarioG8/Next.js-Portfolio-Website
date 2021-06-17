@@ -19,7 +19,7 @@ function ContactPage() {
         <div className={styles.contact_container}>
           <Item
             img="/images/phone_001.jpg"
-            title="(---------)+48 799-11-33-59"
+            title="+48 799-11-33-59"
             subtitle="Phone Number"
             icon={<FaPhoneSquareAlt size={45} />}
           />
@@ -31,7 +31,7 @@ function ContactPage() {
           />
           <Item
             img="/images/cracow_001.jpg"
-            title="Cracow 30-698 Familijna 5"
+            title="Cracow 30-698 Family Str 5"
             subtitle="Address"
             icon={<ImAddressBook size={45} />}
           />

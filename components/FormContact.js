@@ -7,7 +7,7 @@ function FormContact() {
       <div className={styles.auth}>
         <h1 className={styles.header}>
           <BiMessageRoundedDots size={40} className={styles.icon} />
-          Send Message
+          Message
         </h1>
         <form action="https://formspree.io/f/xrgrkkyz" method="POST">
           <div>

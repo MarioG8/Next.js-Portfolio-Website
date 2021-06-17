@@ -4,7 +4,7 @@
   align-items: center;
   margin: 20px 0;
   padding: 13px;
-  max-width: 750px;
+  min-width: 700px;
   box-shadow: 0px 10px 15px 0px rgba(98, 68, 68, 0.3);
   /* box-shadow: 1px 2px 9px var(--secondary-text-color); */
 }
@@ -29,6 +29,7 @@
   .event {
     flex-direction: column;
     text-align: center;
+    min-width: fit-content;
   }
 
   .info {
