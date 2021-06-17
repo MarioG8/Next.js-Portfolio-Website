@@ -1,12 +1,17 @@
 import styles from "@/styles/404.module.css";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { BiErrorCircle } from "react-icons/bi";
-import { FaHome } from "react-icons/fa";
+import { GoHome } from "react-icons/go";
 
 function NotFound() {
   return (
     <>
+      <Head>
+        <title>404 Page Not Found!</title>
+        <meta name="description" content="Page Not Found!" />
+      </Head>
       <div className={styles.bgWrap}>
         <Image
           alt="Code on the Laptop"
@@ -25,7 +30,7 @@ function NotFound() {
         <h4>page not found !</h4>
         <Link href="/">
           <a className={styles.bgLink}>
-            <FaHome className={styles.bgIcon} />
+            <GoHome className={styles.bgIcon} />
             home page
           </a>
         </Link>
