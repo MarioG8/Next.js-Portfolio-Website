@@ -188,6 +188,20 @@ a {
   color: #fff;
 }
 
+.btn {
+  display: inline-block;
+  background: var(--alternative-color);
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
 .btn-icon {
   display: flex;
   align-items: center;
