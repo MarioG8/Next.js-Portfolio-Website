@@ -1,10 +1,17 @@
 import styles from "@/styles/Showcase.module.css";
+import Image from "next/image";
 
-function Showcase() {
+function Showcase({ image, position }) {
   return (
     <div className={styles.showcase}>
-      {/* <h1>Contact</h1>
-      <h2>how to reach me (req,res) =&gt;</h2> */}
+      <Image
+        src={image}
+        objectPosition={position}
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+        className={styles.showcase_img}
+      />
     </div>
   );
 }

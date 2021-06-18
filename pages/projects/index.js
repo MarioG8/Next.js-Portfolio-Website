@@ -1,8 +1,7 @@
 import Head from "next/head";
-import ShowcaseSec from "@/components/ShowcaseSec";
 import styles from "@/styles/Projects.module.css";
-
 import Card from "@/components/Card";
+import Showcase from "@/components/Showcase";
 
 function ProjectsPage() {
   return (
@@ -11,7 +10,7 @@ function ProjectsPage() {
         <title>My Projects</title>
         <meta name="description" content="Couple of my projects" />
       </Head>
-      <ShowcaseSec />
+      <Showcase image="/images/code_007.jpg" position="top" />
       <div className={styles.projects}>
         <h2>my projects..</h2>
       </div>

@@ -1,4 +1,3 @@
-import ShowcaseSec from "@/components/ShowcaseSec";
 import Head from "next/head";
 import styles from "@/styles/Bootcamps.module.css";
 import Item from "@/components/Item";
@@ -6,6 +5,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { GiTriangleTarget } from "react-icons/gi";
+import Showcase from "@/components/Showcase";
 
 function BootcampsPage() {
   return (
@@ -14,7 +14,7 @@ function BootcampsPage() {
         <title>Knowledge</title>
         <meta name="description" content="Bootcamps which I passed" />
       </Head>
-      <ShowcaseSec />
+      <Showcase image="/images/code_000.jpg" position="center" />
       <main className={styles.bootcamp}>
         <div className={styles.bootcamp_container}>
           <h2>bootcamps..</h2>

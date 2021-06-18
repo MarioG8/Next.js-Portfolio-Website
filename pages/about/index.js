@@ -5,9 +5,9 @@ import styles from "@/styles/About.module.css";
 import { FaGithub } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { IoCodeSlashOutline } from "react-icons/io5";
-import ShowcaseThr from "@/components/ShowcaseThr";
 import AwesomeCard from "@/components/AwesomeCard";
 import BootCampCard from "@/components/BootcampCard";
+import Showcase from "@/components/Showcase";
 
 function AboutPage() {
   return (
@@ -16,8 +16,7 @@ function AboutPage() {
         <title>About me</title>
         <meta name="description" content="About me page" />
       </Head>
-
-      <ShowcaseThr />
+      <Showcase image="/images/code_007.jpg" position="top" />
       <section className={styles.about}>
         <div className={styles.about_container}>
           <div className={styles.about_txt_wrapper}>

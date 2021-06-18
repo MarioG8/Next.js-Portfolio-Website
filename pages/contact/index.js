@@ -17,7 +17,7 @@ function ContactPage() {
           content="Send me a message.I am glad to here You"
         />
       </Head>
-      <Showcase />
+      <Showcase image="/images/code_007.jpg" position="top" />
       <div className={styles.contact_header}>
         <h2>contact me..</h2>
       </div>
