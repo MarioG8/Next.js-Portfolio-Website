@@ -1,12 +1,12 @@
 import styles from "@/styles/Showcase.module.css";
 import Image from "next/image";
 
-function Showcase({ image, position }) {
+function Showcase(props) {
   return (
     <div className={styles.showcase}>
       <Image
-        src={image}
-        objectPosition={position}
+        src={props.image}
+        objectPosition={props.position}
         layout="fill"
         objectFit="cover"
         quality={100}
