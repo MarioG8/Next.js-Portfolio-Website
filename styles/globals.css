@@ -199,11 +199,7 @@ a {
 }
 
 .btn:hover {
-  transition: all 500ms ease-out;
-  background-color: transparent;
-  border: 1px solid var(--alternative-color);
-  color: var(--alternative-color);
-  box-shadow: 1px 2px 4px var(--alternative-color);
+  opacity: 0.93;
 }
 
 .btn-icon {
