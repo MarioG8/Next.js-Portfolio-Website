@@ -14,7 +14,7 @@ function NotFound() {
       </Head>
       <div className={styles.bgWrap}>
         <Image
-          alt="Code on the Laptop"
+          alt="Sepia, Code on the laptop computer"
           src="/images/code_011.jpg"
           layout="fill"
           objectFit="cover"

@@ -12,7 +12,7 @@ function BootcampsPage() {
     <>
       <Head>
         <title>Knowledge</title>
-        <meta name="description" content="Bootcamps which I passed" />
+        <meta name="description" content="Bootcamps I've worked with" />
       </Head>
       <Showcase image="/images/code_008.jpg" position="top" />
       <main className={styles.bootcamp}>

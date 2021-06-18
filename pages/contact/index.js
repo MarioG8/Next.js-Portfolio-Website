@@ -11,10 +11,10 @@ function ContactPage() {
   return (
     <>
       <Head>
-        <title>Contact Me</title>
+        <title>Contact</title>
         <meta
           name="description"
-          content="Send me a message.I am glad to here You"
+          content="Contact me and send me a message.I am glad to here You"
         />
       </Head>
       <Showcase image="/images/code_008.jpg" position="bottom" />

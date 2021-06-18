@@ -84,7 +84,7 @@ function AboutPage() {
           <div className={styles.about_img_wrapper}>
             <Image
               src="/images/mario_004.jpg"
-              alt="mario"
+              alt="My best photo with glasses, in the background a great grass"
               height={700}
               width={475}
               objectFit="cover"

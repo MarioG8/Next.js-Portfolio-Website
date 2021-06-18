@@ -21,7 +21,6 @@
   font-size: 4.5rem;
   line-height: 1.3;
   font-weight: 900;
-  /* color: var(--secondary-text-color); */
   color: rgba(0, 0, 0, 0.76);
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.76);
 }
@@ -62,7 +61,6 @@
   font-size: 4.5rem;
   line-height: 1.4;
   font-weight: 900;
-  /* color: var(--secondary-text-color); */
   color: rgba(0, 0, 0, 0.76);
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.76);
 }
@@ -85,7 +83,6 @@
 
 .icon:hover {
   color: var(--alternative-color);
-  /* color: var(--secondary-text-color); */
   transform: translateY(-5px);
 }
 
@@ -98,7 +95,6 @@
   min-height: 100vh;
   place-items: center;
   line-height: 1.6;
-  /* background: var(--clr-neutral-900); */
   background-color: #fff;
 }
 
