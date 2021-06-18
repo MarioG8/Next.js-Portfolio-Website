@@ -14,7 +14,7 @@ function BootcampsPage() {
         <title>Knowledge</title>
         <meta name="description" content="Bootcamps which I passed" />
       </Head>
-      <Showcase image="/images/code_000.jpg" position="center" />
+      <Showcase image="/images/code_008.jpg" position="top" />
       <main className={styles.bootcamp}>
         <div className={styles.bootcamp_container}>
           <h2>bootcamps..</h2>

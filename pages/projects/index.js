@@ -10,7 +10,7 @@ function ProjectsPage() {
         <title>My Projects</title>
         <meta name="description" content="Couple of my projects" />
       </Head>
-      <Showcase image="/images/code_007.jpg" position="top" />
+      <Showcase image="/images/code_007.jpg" position="center" />
       <div className={styles.projects}>
         <h2>my projects..</h2>
       </div>
