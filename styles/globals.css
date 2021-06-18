@@ -205,7 +205,7 @@ a {
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .lg-heading {
     z-index: 1000;
     line-height: 1;
@@ -224,15 +224,18 @@ a {
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 1.7rem;
+  }
+  .menu-nav .nav-link {
+    font-size: 1.4rem;
+    padding: 0.9rem 0;
   }
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait-img-2 {
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
   }
 }
 
