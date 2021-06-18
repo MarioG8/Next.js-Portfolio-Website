@@ -12,6 +12,7 @@ function Card(props) {
         height={400}
         width={630}
         className={styles.card_img}
+        alt="Surfer on a wave, thunderstorm, ancient library, code on the laptop screen"
       />
 
       <div className={styles.card_category}>

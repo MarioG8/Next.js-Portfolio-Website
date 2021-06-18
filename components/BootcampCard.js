@@ -11,6 +11,7 @@ function BootCampCard(props) {
         layout="fill"
         quality={100}
         className={styles.about_img}
+        alt="Code on computer monitor.Tablet, smartphone with headphones, keyboard and cup of coffee"
       />
       <div className={styles.about_card_content}>
         <h2 className={styles.about_card_title}>{props.title}</h2>

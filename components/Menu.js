@@ -28,6 +28,7 @@ function Header(props) {
               height={400}
               quality={100}
               className="portrait-img"
+              alt="Handsome blond man in suit"
             />
           </div>
         </div>

@@ -1,6 +1,5 @@
 import styles from "@/styles/AwesomeCard.module.css";
 import Image from "next/image";
-import Link from "next/link";
 
 function AwesomeCard(props) {
   return (
@@ -11,6 +10,7 @@ function AwesomeCard(props) {
         layout="fill"
         quality={100}
         className={styles.about_img}
+        alt="Programming languages, frameworks and technologies, Python"
       />
       <div className={styles.about_card_content}>
         <h2 className={styles.about_card_title}>{props.title}</h2>

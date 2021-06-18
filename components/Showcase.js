@@ -11,6 +11,7 @@ function Showcase(props) {
         objectFit="cover"
         quality={100}
         className={styles.showcase_img}
+        alt="Colorful JavaScript code on the monitor screen"
       />
     </div>
   );
