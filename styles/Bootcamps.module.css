@@ -9,6 +9,7 @@
   background: #fff;
   color: #000;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .bootcamp_container {
@@ -17,7 +18,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  max-width: 700px;
+  max-width: 750px;
 }
 
 .bootcamp_container > h2 {
@@ -34,12 +35,12 @@
 
 @media (max-width: 768px) {
   .bootcamp_container {
-    padding: 1rem 1.3rem;
+    padding: 1rem 1.5rem;
   }
 
   .bootcamp_container > h2 {
     padding-top: 5rem;
     padding-bottom: 1rem;
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 }

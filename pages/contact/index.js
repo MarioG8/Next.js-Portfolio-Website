@@ -1,4 +1,3 @@
-import Showcase from "@/components/Showcase";
 import styles from "@/styles/Contact.module.css";
 import Head from "next/head";
 import FormContact from "@/components/FormContact";
@@ -6,15 +5,22 @@ import Item from "@/components/Item";
 import { IoMdMail } from "react-icons/io";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { ImAddressBook } from "react-icons/im";
+import Showcase from "@/components/Showcase";
 
 function ContactPage() {
   return (
     <>
       <Head>
         <title>Contact Me</title>
-        <meta name="description" content="Send me message!" />
+        <meta
+          name="description"
+          content="Send me a message.I am glad to here You"
+        />
       </Head>
       <Showcase />
+      <div className={styles.contact_header}>
+        <h2>contact me..</h2>
+      </div>
       <main className={styles.contact}>
         <div className={styles.contact_container}>
           <Item

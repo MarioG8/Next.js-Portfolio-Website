@@ -17,7 +17,7 @@ function BootcampsPage() {
       <ShowcaseSec />
       <main className={styles.bootcamp}>
         <div className={styles.bootcamp_container}>
-          <h2>bootcamps</h2>
+          <h2>bootcamps..</h2>
           <Item
             img="/images/javascript.jpg"
             title="JavaScript Jan 2021"

@@ -21,7 +21,7 @@ function AboutPage() {
       <section className={styles.about}>
         <div className={styles.about_container}>
           <div className={styles.about_txt_wrapper}>
-            <h1>about me</h1>
+            <h1>about me..</h1>
             <h3>
               I'm self-taught programmer, designer and web developer from Cracow
             </h3>

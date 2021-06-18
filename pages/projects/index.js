@@ -1,6 +1,6 @@
 import Head from "next/head";
 import ShowcaseSec from "@/components/ShowcaseSec";
-import styles from "@/styles/ProjectsPage.module.css";
+import styles from "@/styles/Projects.module.css";
 
 import Card from "@/components/Card";
 
@@ -13,7 +13,7 @@ function ProjectsPage() {
       </Head>
       <ShowcaseSec />
       <div className={styles.projects}>
-        <h2>my projects</h2>
+        <h2>my projects..</h2>
       </div>
       <main className={styles.projects_container}>
         <Card
