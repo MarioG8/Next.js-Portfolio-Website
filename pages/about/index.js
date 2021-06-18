@@ -22,15 +22,16 @@ function AboutPage() {
           <div className={styles.about_txt_wrapper}>
             <h1>about me..</h1>
             <h3>
-              I'm self-taught programmer, designer and web developer from Cracow
+              I'm self-taught programmer, designer and web developer from
+              Cracow, Poland.
             </h3>
             <p>
               <strong className={styles.strong}>Programming</strong> is one of
-              my biggest passion.My adventure related to IT started in my first
+              my biggest passion. My adventure related to IT started in my first
               job. I was involved in software and hardware in the mobile phone
               industry for over two years. It was also where I first encountered
-              web programming. However, my professional career changed direction
-              to finance.
+              web development. However, my professional career suddenly changed
+              direction to finances.
             </p>
             <p>
               <strong className={styles.strong}>From </strong>January 2020, I
@@ -41,22 +42,22 @@ function AboutPage() {
               tutorials, online course and internet forums for coders.
             </p>
             <p>
-              <strong className={styles.strong}>After</strong> learning the
-              foundations of web programming (Html, Css, Js), my learning
-              focused on Python. Basics of Python and object oriented
-              programming as well as the basics of Data Science and the Pygame
+              <strong className={styles.strong}>After</strong> gaining
+              foundation of knowledge about web development(Html, Css, Js), my
+              learning focused on Python. Basics of Python, Object oriented
+              programming as well as the basics of Data Science, the Pygame
               library and the Django framework.
             </p>
             <p>
               <strong className={styles.strong}>Presently</strong> my favorite
               programming language is JavaScript. Both from the front-end Js and
               frameworks like(React.js Next.js Gatsby.js) and the server side
-              (Node.js). My stronger side is currently the front-end, but I am
-              doing my best to balance my knowledge and I am also focusing on
-              learning the back-end (Node.js)
+              (Node.js - environment). My stronger side is currently the
+              front-end, but I am doing my best to balance my knowledge and I am
+              also focusing on learning the back-end (Node.js - environment)
             </p>
             <p>
-              <strong className={styles.strong}>My</strong> dream and goal,in
+              <strong className={styles.strong}>My</strong> dream and goal, in
               the near future is to create useful web and mobile applications,
               based on JavaScript language (React.js,React Native) as well as
               expand my knowledge, experience, towards full stack JavaScript
