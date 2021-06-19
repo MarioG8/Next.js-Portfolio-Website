@@ -52,9 +52,9 @@ function AboutPage() {
               <strong className={styles.strong}>Presently</strong> my favorite
               programming language is JavaScript. Both from the front-end Js and
               frameworks like(React.js Next.js Gatsby.js) and the server side
-              (Node.js - environment). My stronger side is currently the
-              front-end, but I am doing my best to balance my knowledge and I am
-              also focusing on learning the back-end (Node.js - environment)
+              (Node.js). My stronger side is currently the front-end, but I am
+              doing my best to balance my knowledge and I am also focusing on
+              learning the back-end (Node.js)
             </p>
             <p>
               <strong className={styles.strong}>My</strong> dream and goal, in
