@@ -49,7 +49,7 @@ function ProjectsPage() {
           date="15 June 2021"
           lang="Next.js"
           title="Portfolio Website"
-          description="Fully Responsive Website Built with Next.js(one of the best and newest technologies based on React.js) and react icons library. Personal portfolio page, about my biggest passion (programing, web development). Couple of few projects which I created as a self-taught programmer."
+          description="Fully Responsive Website Built with Next.js(newest technologies based on React.js) and react icons library. Personal portfolio page, about my biggest passion (programing, web development). Couple of few projects which I created as a self-taught programmer."
           link="/"
           git="https://github.com/MarioG8?tab=repositories"
         />

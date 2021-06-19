@@ -20,15 +20,15 @@ function BootcampsPage() {
           <h2>bootcamps..</h2>
           <Item
             img="/images/pandas2.jpeg"
-            title="Python Pandas Jul 2020"
-            subtitle="Python Pandas Data Analysis Course by Corey Schafer"
+            title="Pandas Jul 2020"
+            subtitle="Python(Pandas) Course Corey Schafer"
             icon={<FaPython size={45} color="#0751a5" />}
             link="https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS"
           />
           <Item
             img="/images/react3.png"
             title="React.js Dec 2020"
-            subtitle="React - The Complete Guide (incl Hooks, React Router, Redux)"
+            subtitle="React Complete Guide (Hooks, Router, Redux)"
             icon={<FaReact size={45} color="#0fb0e6" />}
             link="https://academind.com/"
           />

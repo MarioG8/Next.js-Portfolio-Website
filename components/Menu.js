@@ -43,7 +43,7 @@ function Header(props) {
           <li className={menu ? "nav-item" : "nav-item show"}>
             <Link href="/about">
               <a className="nav-link" onClick={closeMenuHandler}>
-                about Me
+                about me
               </a>
             </Link>
           </li>
