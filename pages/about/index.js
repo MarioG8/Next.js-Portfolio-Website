@@ -59,9 +59,9 @@ function AboutPage() {
             <p>
               <strong className={styles.strong}>My</strong> dream and goal, in
               the near future is to create useful web and mobile applications,
-              based on JavaScript language (React.js,React Native) as well as
-              expand my knowledge, experience, towards full stack JavaScript
-              Developer.
+              based on JavaScript language (Next.js, React.js, React Native) as
+              well as expand my knowledge, experience, towards the full stack
+              JavaScript developer.
             </p>
             <div className={styles.icons}>
               <Link href="mailto:golikmariusz@yahoo.com">

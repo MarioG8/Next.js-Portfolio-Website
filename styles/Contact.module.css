@@ -23,7 +23,7 @@
   gap: 1rem;
   padding-bottom: 3rem;
   background: #fff;
-  color: #000;
+  color: var(--alternative-text-color-two);
   min-height: 100vh;
 }
 
@@ -47,6 +47,6 @@
   }
   .contact_container {
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 }
