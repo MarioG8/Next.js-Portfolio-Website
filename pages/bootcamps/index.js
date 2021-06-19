@@ -27,28 +27,28 @@ function BootcampsPage() {
           />
           <Item
             img="/images/react3.png"
-            title="React.js Oct 2020"
-            subtitle="React.js & Redux - The Complete Guide 2021"
+            title="React.js Dec 2020"
+            subtitle="React - The Complete Guide (incl Hooks, React Router, Redux)"
             icon={<FaReact size={45} color="#0fb0e6" />}
             link="https://academind.com/"
           />
           <Item
             img="/images/javascript.jpg"
-            title="JavaScript Jan 2021"
+            title="JavaScript Feb 2021"
             subtitle="The Complete JavaScript Bootcamp 2021"
             icon={<DiJavascript1 size={45} color="gold" />}
             link="https://codingheroes.io/"
           />
           <Item
             img="/images/next.png"
-            title="Next.js May 2021"
+            title="Next.js Apr/May 2021"
             subtitle="Next.js & React.js - The Complete Guide 2021"
             icon={<GiTriangleTarget size={45} color="black" />}
             link="https://academind.com/"
           />
           <Item
             img="/images/node.png"
-            title="Node.js Jun 2021"
+            title="Node.js Jun/Jul 2021"
             subtitle="The Node.js Express Complete Bootcamp 2021"
             icon={<FaNodeJs size={45} color="green" />}
             link="https://codingheroes.io/"

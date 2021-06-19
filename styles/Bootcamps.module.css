@@ -7,9 +7,8 @@
   gap: 1rem;
   padding-bottom: 3rem;
   background: #fff;
-  color: #000;
+  color: var(--alternative-text-color-two);
   min-height: 100vh;
-  /* overflow-x: hidden; */
 }
 
 .bootcamp_container {

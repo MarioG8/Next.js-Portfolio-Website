@@ -6,9 +6,9 @@ function Footer() {
     <div>
       <footer className={styles.footer}>
         <p>
-          &copy; {new Date().getFullYear()}
+          &copy; {new Date().getFullYear()}{" "}
           <span>
-            All Rights Reserved Portfolio by MarioG8 <br></br>
+            All Rights Reserved Portfolio By MarioG8 <br></br>
           </span>
           Built with{" "}
           <Link href="https://www.nextjs.com/">
