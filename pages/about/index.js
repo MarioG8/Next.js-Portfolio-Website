@@ -85,7 +85,7 @@ function AboutPage() {
             <Image
               src="/images/mario_001.jpg"
               alt="Awesome handsome blond man in sunglasses. In the background a reed "
-              height={680}
+              height={700}
               width={475}
               objectFit="cover"
               quality={100}
