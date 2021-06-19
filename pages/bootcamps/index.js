@@ -3,7 +3,7 @@ import styles from "@/styles/Bootcamps.module.css";
 import Item from "@/components/Item";
 import { FaNodeJs } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaPython } from "react-icons/fa";
 import { GiTriangleTarget } from "react-icons/gi";
 import Showcase from "@/components/Showcase";
 
@@ -19,18 +19,11 @@ function BootcampsPage() {
         <div className={styles.bootcamp_container}>
           <h2>bootcamps..</h2>
           <Item
-            img="/images/javascript.jpg"
-            title="JavaScript Jan 2021"
-            subtitle="The Complete JavaScript Bootcamp 2021"
-            icon={<DiJavascript1 size={45} color="#b3b323" />}
-            link="https://codingheroes.io/"
-          />
-          <Item
-            img="/images/node.png"
-            title="Node.js Jun 2021"
-            subtitle="The Node.js Express Complete Bootcamp 2021"
-            icon={<FaNodeJs size={45} color="green" />}
-            link="https://codingheroes.io/"
+            img="/images/pandas2.jpeg"
+            title="Python Pandas Jul 2020"
+            subtitle="Python Pandas Data Analysis Course by Corey Schafer"
+            icon={<FaPython size={45} color="#0751a5" />}
+            link="https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS"
           />
           <Item
             img="/images/react3.png"
@@ -40,11 +33,25 @@ function BootcampsPage() {
             link="https://academind.com/"
           />
           <Item
+            img="/images/javascript.jpg"
+            title="JavaScript Jan 2021"
+            subtitle="The Complete JavaScript Bootcamp 2021"
+            icon={<DiJavascript1 size={45} color="gold" />}
+            link="https://codingheroes.io/"
+          />
+          <Item
             img="/images/next.png"
             title="Next.js May 2021"
             subtitle="Next.js & React.js - The Complete Guide 2021"
             icon={<GiTriangleTarget size={45} color="black" />}
             link="https://academind.com/"
+          />
+          <Item
+            img="/images/node.png"
+            title="Node.js Jun 2021"
+            subtitle="The Node.js Express Complete Bootcamp 2021"
+            icon={<FaNodeJs size={45} color="green" />}
+            link="https://codingheroes.io/"
           />
         </div>
       </main>
