@@ -88,6 +88,7 @@ function AboutPage() {
               height={700}
               width={475}
               objectFit="cover"
+              quality={100}
               className={styles.about_image}
             />
           </div>
