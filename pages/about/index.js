@@ -83,7 +83,7 @@ function AboutPage() {
           </div>
           <div className={styles.about_img_wrapper}>
             <Image
-              src="/images/mario_000.jpg"
+              src="/images/mario_001.jpg"
               alt="Awesome handsome blond man in sunglasses. In the background a reed "
               height={680}
               width={475}
