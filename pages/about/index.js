@@ -84,7 +84,7 @@ function AboutPage() {
           <div className={styles.about_img_wrapper}>
             <Image
               src="/images/mario_004.jpg"
-              alt="My best photo with glasses, in the background a great grass"
+              alt="Awesome handsome blond man in sunglasses. In the background a reed "
               height={700}
               width={475}
               objectFit="cover"
@@ -99,25 +99,25 @@ function AboutPage() {
           <AwesomeCard
             img="/images/html_001.png"
             title="Fundamentals"
-            description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, Devtools"
+            description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, devtools(firefox, chrome)"
             link="https://developer.mozilla.org/en-US/docs/Learn"
           />
           <AwesomeCard
             img="/images/js.png"
             title="JavaScript"
-            description="Vanilla JavaScript, Node.js & Express & mongoDB, React.js, Gatsby.js, Next.js"
+            description="Vanilla JavaScript, Node.js & Express, mongoDB, React.js, Gatsby.js, Next.js"
             link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           />
           <AwesomeCard
             img="/images/python_003.jpg"
             title="Python"
-            description="Python, Django, NumPy, Matplotlib, Seaborn, Pandas"
+            description="Python, Django, Pandas, Matplotlib, NumPy, Seaborn,"
             link="https://www.python.org/"
           />
           <BootCampCard
             img="/images/bootcamp5.jpg"
             title="Bootcamps"
-            description="JavaScript, Node.js, React.js, Next.js"
+            description="Python(Pandas), JavaScript, Node.js, React.js, Next.js"
           />
         </div>
       </section>
