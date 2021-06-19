@@ -5,8 +5,8 @@ function Background() {
   return (
     <div className={styles.container}>
       <Image
-        alt="Code on the laptop computer, red keyboard backlight"
         src="/images/code_011.jpg"
+        alt="Code on the laptop computer, red keyboard backlight"
         layout="fill"
         objectFit="cover"
         objectPosition="50% 79%"
