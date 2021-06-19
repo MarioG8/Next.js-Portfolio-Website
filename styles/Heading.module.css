@@ -10,8 +10,8 @@
 }
 
 .textSecondary {
-  color: rgb(30, 154, 221);
-  text-shadow: 1px 3px 4px rgb(30, 154, 221);
+  color: var(--header-color-one);
+  text-shadow: 1px 3px 4px var(--header-color-one);
 }
 
 .icons {
@@ -24,7 +24,7 @@
 }
 
 .icon {
-  color: rgba(200, 200, 200, 0.842);
+  color: var(--alternative-text-color);
   cursor: pointer;
   transition: all 0.5s ease-out;
   font-size: 2.25rem;

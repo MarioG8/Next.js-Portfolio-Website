@@ -3,11 +3,13 @@
   --secondary-color: rgb(7, 81, 165);
   --background-color-one: #373737;
   --background-color-two: #444444;
+  --background-color-three: rgba(12, 213, 248, 0.12);
   --alternative-color: #6724b1;
   --alternative-color-two: #41b764;
   --alternative-color-three: #8eef9e;
   --alternative-color-four: rgba(102, 31, 225, 0.705);
   --alternative-color-five: #0751a5;
+  --header-color-one: #1e9add;
   --primary-text-color: rgba(199, 199, 199, 0.842);
   --secondary-text-color: rgb(175, 31, 156);
   --alternative-text-color: rgba(200, 200, 200, 0.843);
@@ -179,9 +181,9 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 1rem;
   padding: 0.6rem 1rem;
-  background: rgba(12, 213, 248, 0.12);
+  background: var(--background-color-three);
   border-radius: 3px;
-  color: #41b764;
+  color: var(--alternative-color-two);
 }
 
 a {
