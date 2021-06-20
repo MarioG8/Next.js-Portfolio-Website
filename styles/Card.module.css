@@ -12,6 +12,11 @@
 .card_img {
   margin-bottom: 4px;
   border-radius: 5px;
+  transition: opacity 0.4s ease;
+}
+
+.card_img:hover {
+  opacity: 0.55;
 }
 
 .card_category {
