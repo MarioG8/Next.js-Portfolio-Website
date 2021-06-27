@@ -74,7 +74,7 @@ function AboutPage() {
                   <IoCodeSlashOutline className={styles.icon} />
                 </a>
               </Link>
-              <Link href="https://github.com">
+              <Link href="https://github.com/MarioG8">
                 <a target="_blank" rel="noreferrer">
                   <FaGithub className={styles.icon} />
                 </a>
