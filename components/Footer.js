@@ -12,7 +12,7 @@ function Footer() {
           </span>
           Built with{" "}
           <Link href="https://www.nextjs.com/">
-            <a target="_blank" className={styles.footerLink}>
+            <a target="_blank" rel="noreferrer" className={styles.footerLink}>
               Next.js
             </a>
           </Link>

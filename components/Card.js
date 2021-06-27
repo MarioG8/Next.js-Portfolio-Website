@@ -27,12 +27,14 @@ function Card(props) {
 
       <div className={styles.card_links_container}>
         <Link href={props.link}>
-          <a target="_blank">Visit Site</a>
+          <a target="_blank" rel="noreferrer">
+            Visit Site
+          </a>
         </Link>
         <div className={styles.card_items}>
           <p>Code &gt;</p>
           <Link href={props.git}>
-            <a target="_blank">
+            <a target="_blank" rel="noreferrer">
               <FaGithub size={35} className={styles.card_icon} />
             </a>
           </Link>

@@ -19,12 +19,12 @@ function Header() {
           </a>
         </Link>
         <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
-          <a target="_blank">
+          <a target="_blank" rel="noreferrer">
             <IoCodeSlashOutline className={styles.icon} />
           </a>
         </Link>
-        <Link href="https://github.com">
-          <a target="_blank">
+        <Link href="https://github.com/MarioG8">
+          <a target="_blank" rel="noreferrer">
             <FaGithub className={styles.icon} />
           </a>
         </Link>

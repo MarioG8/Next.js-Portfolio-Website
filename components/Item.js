@@ -18,7 +18,12 @@ function Item(props) {
       </div>
       <div className={styles.link}>
         <div>
-          <a className={styles.icon} href={props.link} target="_blank">
+          <a
+            className={styles.icon}
+            href={props.link}
+            target="_blank"
+            rel="noreferrer"
+          >
             {props.icon}
           </a>
         </div>
