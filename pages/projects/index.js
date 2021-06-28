@@ -23,7 +23,7 @@ function ProjectsPage() {
           description="Simple JavaScript weather app built with  Html, Css, and Vanilla JavaScript, external Api from openweathermap.org
           Daily weather(cloudiness, temp) around the world, for the city selected by the user."
           link="https://weather-application-mario.netlify.app/"
-          git="https://github.com/MarioG8?tab=repositories"
+          git="https://github.com/MarioG8/Weather-App"
         />
         <Card
           img="/images/killerwhale.jpg"
@@ -32,7 +32,7 @@ function ProjectsPage() {
           title="Surfing School Website"
           description="Full responsive Single Page Website, built with Html,   Sass, Vanilla JavaScript, GSAP animation, custom animated icons and contact form. A Business page about water sports. Windsurfing and Surfing school."
           link="https://killerwhale.netlify.app/"
-          git="https://github.com/MarioG8?tab=repositories"
+          git="https://github.com/MarioG8/Surfing-School-Full-Responsive-Website"
         />
         <Card
           img="/images/stoa.jpg"
@@ -42,7 +42,7 @@ function ProjectsPage() {
           description="Full Responsive React website built with React.js and Sass, React icons, scroll, and React router. Website devoted to stoic philosophy.
           Golden thoughts of the main heros(Epictetus, Seneca, M.Aurelius)"
           link="https://stoa-app.netlify.app/"
-          git="https://github.com/MarioG8?tab=repositories"
+          git="https://github.com/MarioG8/React-Stoa-Website-"
         />
         <Card
           img="/images/code_011.jpg"
@@ -51,7 +51,7 @@ function ProjectsPage() {
           title="Portfolio Website"
           description="Fully Responsive Website Built with Next.js(newest technology based on React.js) and react icons library. Personal portfolio page, about my biggest passion (programing, web development). Couple of few projects which I created as a self-taught programmer."
           link="/"
-          git="https://github.com/MarioG8?tab=repositories"
+          git="https://github.com/MarioG8/Next.js-Portfolio-Website"
         />
         <Card
           img="/images/nodemailer.jpg"
@@ -60,7 +60,7 @@ function ProjectsPage() {
           title="Node.js Email App"
           description="Node.js and Express application using handlebars and Nodemailer module add to simple responsive contact form. Nodemailer - module for node.js apps to allow easy email sending to list of users which we will specify. Deployed on the Heroku."
           link="https://nodejs-email-app.herokuapp.com/"
-          git="https://github.com/MarioG8?tab=repositories"
+          git="https://github.com/MarioG8/Node.js-Email-App"
         />
       </main>
     </>
