@@ -19,7 +19,7 @@ function ProjectsPage() {
           img="/images/thunder.jpg"
           date="25 Oct 2020"
           lang="Html,CSS,JS"
-          title="Surfing School Website"
+          title="Simple Js Weather App"
           description="Simple JavaScript weather app built with  Html, Css, and Vanilla JavaScript, external Api from openweathermap.org
           Daily weather(cloudiness, temp) around the world, for the city selected by the user."
           link="https://weather-application-mario.netlify.app/"
