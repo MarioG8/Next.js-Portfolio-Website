@@ -69,7 +69,6 @@
 .icons {
   position: relative;
   margin-top: 1rem;
-  /* padding-bottom: 3rem; */
 }
 
 .icons :not(:last-of-type) {
