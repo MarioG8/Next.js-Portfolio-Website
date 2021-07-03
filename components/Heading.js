@@ -11,7 +11,9 @@ function Header() {
         Mariusz
         <span className={styles.textSecondary}> Golik</span>
       </h1>
-      <h2 className="sm-heading">Web Developer, Designer, Programmer</h2>
+      <h2 className="sm-heading">
+        Web Developer, Designer, Self-Taught Programmer
+      </h2>
       <div className={styles.icons}>
         <Link href="mailto:golikmariusz@yahoo.com">
           <a>

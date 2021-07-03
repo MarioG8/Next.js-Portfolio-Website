@@ -47,6 +47,7 @@
 
 .about_img_wrapper {
   max-width: 600px;
+  padding-top: 3rem;
 }
 
 .about_image {
@@ -68,6 +69,7 @@
 .icons {
   position: relative;
   margin-top: 1rem;
+  /* padding-bottom: 3rem; */
 }
 
 .icons :not(:last-of-type) {
