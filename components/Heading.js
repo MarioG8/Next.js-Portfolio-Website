@@ -1,5 +1,5 @@
 import styles from "@/styles/Heading.module.css";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaDev } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import Link from "next/link";
@@ -23,6 +23,11 @@ function Header() {
         <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
           <a target="_blank" rel="noreferrer">
             <IoCodeSlashOutline className={styles.icon} />
+          </a>
+        </Link>
+        <Link href="https://dev.to/mariog8">
+          <a target="_blank" rel="noreferrer">
+            <FaDev className={styles.icon} />
           </a>
         </Link>
         <Link href="https://github.com/MarioG8">

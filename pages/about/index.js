@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "@/styles/About.module.css";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaDev } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import AwesomeCard from "@/components/AwesomeCard";
@@ -72,6 +72,11 @@ function AboutPage() {
               <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
                 <a target="_blank" rel="noreferrer">
                   <IoCodeSlashOutline className={styles.icon} />
+                </a>
+              </Link>
+              <Link href="https://dev.to/mariog8">
+                <a target="_blank" rel="noreferrer">
+                  <FaDev className={styles.icon} />
                 </a>
               </Link>
               <Link href="https://github.com/MarioG8">
