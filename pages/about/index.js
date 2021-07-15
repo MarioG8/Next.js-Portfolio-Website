@@ -69,11 +69,11 @@ function AboutPage() {
                   <GrMail className={styles.icon} />
                 </a>
               </Link>
-              <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
+              {/* <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
                 <a target="_blank" rel="noreferrer">
                   <IoCodeSlashOutline className={styles.icon} />
                 </a>
-              </Link>
+              </Link> */}
               <Link href="https://dev.to/mariog8">
                 <a target="_blank" rel="noreferrer">
                   <FaDev className={styles.icon} />
