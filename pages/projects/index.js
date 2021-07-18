@@ -62,6 +62,15 @@ function ProjectsPage() {
           link="https://nodejs-email-app.herokuapp.com/"
           git="https://github.com/MarioG8/Node.js-Email-App"
         />
+        <Card
+          img="/images/task_list.jpg"
+          date="18 July 2021"
+          lang="node.js & express, mongoDB"
+          title="Node.js Task List API"
+          description="CRUD Task List API application built with node.js, express, mongoDB and fontAwesome(icons). It has four basic functionality: Create, Read, Update and Delete. All persisting data is on a database(mongoDB). Responsive layout. Deployed on the Heroku."
+          link="https://node-task-list-app.herokuapp.com/"
+          git="https://github.com/MarioG8/Node.js-Task-Manager-API"
+        />
       </main>
     </>
   );
