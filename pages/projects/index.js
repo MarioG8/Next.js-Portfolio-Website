@@ -18,7 +18,7 @@ function ProjectsPage() {
         <Card
           img="/images/thunder.jpg"
           date="25 Oct 2020"
-          lang="Html,CSS,JS"
+          lang="Html, CSS, JS"
           title="Simple Js Weather App"
           description="Simple JavaScript weather app built with  Html, Css, and Vanilla JavaScript, external Api from openweathermap.org
           Daily weather(cloudiness, temp) around the world, for the city selected by the user."
@@ -28,7 +28,7 @@ function ProjectsPage() {
         <Card
           img="/images/killerwhale.jpg"
           date="5 Jan 2021"
-          lang="Html,CSS,JS"
+          lang="Html, CSS, JS"
           title="Surfing School Website"
           description="Full responsive Single Page Website, built with Html,   Sass, Vanilla JavaScript, GSAP animation, custom animated icons and contact form. A Business page about water sports. Windsurfing and Surfing school."
           link="https://killerwhale.netlify.app/"
@@ -37,7 +37,7 @@ function ProjectsPage() {
         <Card
           img="/images/stoa.jpg"
           date="5 May 2021"
-          lang="React.js,Scss"
+          lang="React.js, Scss"
           title="Stoa React Website"
           description="Full Responsive React website built with React.js and Sass, React icons, scroll, and React router. Website devoted to stoic philosophy.
           Golden thoughts of the main heros(Epictetus, Seneca, M.Aurelius)"
@@ -56,8 +56,8 @@ function ProjectsPage() {
         <Card
           img="/images/nodemailer.jpg"
           date="23 June 2021"
-          lang="node.js & express"
-          title="Node.js Email App"
+          lang="node.js, express"
+          title="Email App"
           description="Node.js and Express application using handlebars and Nodemailer module add to simple responsive contact form. Nodemailer - module for node.js apps to allow easy email sending to list of users which we will specify. Deployed on the Heroku."
           link="https://nodejs-email-app.herokuapp.com/"
           git="https://github.com/MarioG8/Node.js-Email-App"
@@ -65,8 +65,8 @@ function ProjectsPage() {
         <Card
           img="/images/task_list.jpg"
           date="18 July 2021"
-          lang="node.js & express, mongoDB"
-          title="Node.js Task List API"
+          lang="node.js, mongoDB"
+          title="Task List API"
           description="CRUD Task List API application built with node.js, express, mongoDB and fontAwesome(icons). It has four basic functionality: Create, Read, Update and Delete. All persisting data is on a database(mongoDB). Responsive layout. Deployed on the Heroku."
           link="https://node-task-list-app.herokuapp.com/"
           git="https://github.com/MarioG8/Node.js-Task-Manager-API"
