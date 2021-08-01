@@ -48,6 +48,7 @@
 
 .auth textarea {
   height: 7rem;
+  resize: none;
 }
 
 .auth input[type="text"],
