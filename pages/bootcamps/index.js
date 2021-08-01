@@ -47,11 +47,18 @@ function BootcampsPage() {
             link="https://academind.com/"
           />
           <Item
-            img="/images/node.png"
+            img="/images/node_001.jpg"
             title="Node.js Jun/Jul 2021"
             subtitle="The Node.js Express Complete Bootcamp 2021"
             icon={<FaNodeJs size={45} color="green" />}
             link="https://codingheroes.io/"
+          />
+          <Item
+            img="/images/node_001.jpg"
+            title="Node.js Aug/in progress.. 2021"
+            subtitle="The Complete Node.js Developer Course Version 3"
+            icon={<FaNodeJs size={45} color="green" />}
+            link="https://mead.io/"
           />
         </div>
       </main>
