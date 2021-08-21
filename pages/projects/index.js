@@ -56,7 +56,7 @@ function ProjectsPage() {
         <Card
           img="/images/nodemailer.jpg"
           date="23 June 2021"
-          lang="node.js, express"
+          lang="Node.js, Express"
           title="Email App"
           description="Node.js and Express application using handlebars and Nodemailer module add to simple responsive contact form. Nodemailer - module for node.js apps to allow easy email sending to list of users which we will specify. Deployed on the Heroku."
           link="https://nodejs-email-app.herokuapp.com/"
@@ -65,11 +65,20 @@ function ProjectsPage() {
         <Card
           img="/images/task_list.jpg"
           date="18 July 2021"
-          lang="node.js, mongoDB"
+          lang="Node.js, MongoDB"
           title="Task List API"
           description="CRUD Task List API application built with node.js, express, mongoDB and fontAwesome(icons). It has four basic functionality: Create, Read, Update and Delete. All persisting data is on a database(mongoDB). Responsive layout. Deployed on the Heroku."
           link="https://node-task-list-app.herokuapp.com/"
           git="https://github.com/MarioG8/Node.js-Task-Manager-API"
+        />
+        <Card
+          img="/images/google.jpg"
+          date="21 August 2021"
+          lang="Next.js, TailwindCSS"
+          title="Google Clone"
+          description="Google Clone with a working search engine, Responsive Website Built with Next.js(newest technology based on React.js) Server Side Rendering, Tailwind CSS - CSS framework, heroic and react icons and simple pagination. Design close to the original. Deployed on netlify."
+          link="https://google-clone-nextjs.netlify.app/"
+          git="https://github.com/MarioG8/"
         />
       </main>
     </>

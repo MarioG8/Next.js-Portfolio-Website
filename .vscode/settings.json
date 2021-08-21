@@ -13,6 +13,7 @@
         "lastname",
         "minmax",
         "noreferrer",
-        "openweathermap"
+        "openweathermap",
+        "tailwindcss"
     ]
 }
