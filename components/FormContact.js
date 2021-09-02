@@ -1,12 +1,16 @@
 import styles from "@/styles/FormContact.module.css";
+import { useEffect } from "react";
 import { BiMessageRoundedDots } from "react-icons/bi";
 
 function FormContact() {
-  window.onbeforeunload = () => {
-    for (const form of document.getElementsByTagName("form")) {
-      form.reset();
-    }
-  };
+  useEffect(() => {
+    window.onbeforeunload = () => {
+      for (const form of document.getElementsByTagName("form")) {
+        form.reset();
+      }
+    };
+  });
+
   return (
     <div className={styles.form_container}>
       <div className={styles.auth}>
