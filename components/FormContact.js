@@ -12,19 +12,19 @@ function FormContact() {
         <form action="https://formspree.io/f/xrgrkkyz" method="POST">
           <div>
             <label htmlFor="firstname">First Name</label>
-            <input type="text" id="firstname" name="firstname" />
+            <input type="text" id="firstname" name="firstname" required />
           </div>
           <div>
             <label htmlFor="lastname">Last Name</label>
-            <input type="text" id="lastname" name="lastname" />
+            <input type="text" id="lastname" name="lastname" required />
           </div>
           <div>
             <label htmlFor="email">Email Address</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required />
           </div>
           <div>
             <label htmlFor="message">Message</label>
-            <textarea name="message" id="message"></textarea>
+            <textarea name="message" id="message" required></textarea>
           </div>
           <input type="submit" value="Send Message" className="btn" />
         </form>
