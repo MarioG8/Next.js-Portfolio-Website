@@ -57,8 +57,8 @@ function ProjectsPage() {
           img="/images/nodemailer.jpg"
           date="23 June 2021"
           lang="Node.js, Express"
-          title="Email App"
-          description="Node.js and Express application using handlebars and Nodemailer module add to simple responsive contact form. Nodemailer - module for node.js apps to allow easy email sending to list of users which we will specify. Deployed on the Heroku."
+          title="Email Application"
+          description="Node.js and Express application using handlebars and Nodemailer module add to simple responsive contact form. Nodemailer - module for node.js apps to allow easy email sending to list of users which we will specify. Deployed on the heroku."
           link="https://nodejs-email-app.herokuapp.com/"
           git="https://github.com/MarioG8/Node.js-Email-App"
         />
@@ -66,8 +66,8 @@ function ProjectsPage() {
           img="/images/task_list.jpg"
           date="18 July 2021"
           lang="Node.js, MongoDB"
-          title="Task List API"
-          description="CRUD Task List API application built with node.js, express, mongoDB and fontAwesome(icons). It has four basic functionality: Create, Read, Update and Delete. All persisting data is on a database(mongoDB). Responsive layout. Deployed on the Heroku."
+          title="Task Manager API"
+          description="CRUD Task List API application built with node.js, express, mongoDB and fontAwesome(icons). It has four basic functionality: Create, Read, Update and Delete. All persisting data is on a database(mongoDB). Responsive layout. Deployed on the heroku."
           link="https://node-task-list-app.herokuapp.com/"
           git="https://github.com/MarioG8/Node.js-Task-Manager-API"
         />
@@ -79,6 +79,15 @@ function ProjectsPage() {
           description="Google Clone with a working search engine, Responsive Website Built with Next.js(newest technology based on React.js) Server Side Rendering, Tailwind CSS - CSS framework, heroic and react icons and simple pagination. Design close to the original. Deployed on netlify."
           link="https://google-clone-nextjs.netlify.app/"
           git="https://github.com/MarioG8/"
+        />
+        <Card
+          img="/images/chat_005.jpg"
+          date="2 September 2021"
+          lang="Node.js, Socket.io"
+          title="Chat Application"
+          description="Real time Web application built with Node.js, Websocket, Socket.io and Mustache template syntax. The Chat App with real time data transfer and simple responsive design layout. An application that enables communication, writing messages between users in web browser. Deployed on heroku."
+          link="https://mariog8-chat-app.herokuapp.com/"
+          git="https://github.com/MarioG8/Node.js-Chat-App-"
         />
       </main>
     </>

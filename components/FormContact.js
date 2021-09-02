@@ -9,7 +9,7 @@ function FormContact() {
         form.reset();
       }
     };
-  });
+  }, []);
 
   return (
     <div className={styles.form_container}>
