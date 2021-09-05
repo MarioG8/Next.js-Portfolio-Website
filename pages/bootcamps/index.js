@@ -55,10 +55,17 @@ function BootcampsPage() {
           />
           <Item
             img="/images/node_001.jpg"
-            title="Node.js Aug/in progress.. 2021"
+            title="Node.js Aug/Sep 2021"
             subtitle="The Complete Node.js Developer Course Version 3"
             icon={<FaNodeJs size={45} color="green" />}
             link="https://mead.io/"
+          />
+          <Item
+            img="/images/javascript.jpg"
+            title="JavaScript Sept/2021 in progress.."
+            subtitle="JavaScript Complete Guide 2021 (Beginner + Advanced)"
+            icon={<DiJavascript1 size={45} color="gold" />}
+            link="https://academind.com/"
           />
         </div>
       </main>
