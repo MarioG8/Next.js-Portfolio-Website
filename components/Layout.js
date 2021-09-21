@@ -7,10 +7,10 @@ function Layout({ children }) {
   const router = useRouter();
   return (
     <>
-      <Menu />
+      {router.pathname !== "/404" && <Menu />}
       {router.pathname === "/" && <Background />}
       <main className="main-content">{children}</main>
-      {router.pathname !== "/" && <Footer />}
+      {router.pathname !== "/" && router.pathname !== "/404" && <Footer />}
     </>
   );
 }

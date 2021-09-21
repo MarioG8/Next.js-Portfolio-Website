@@ -2,10 +2,20 @@ import styles from "@/styles/404.module.css";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 import { BiErrorCircle } from "react-icons/bi";
-import { GoHome } from "react-icons/go";
+import { RiHomeWifiLine } from "react-icons/ri";
 
 function NotFound() {
+  const router = useRouter();
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      router.replace("/");
+    }, 10000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <Head>
@@ -30,8 +40,8 @@ function NotFound() {
         <h4>page not found !</h4>
         <Link href="/">
           <a className={styles.bgLink}>
-            <GoHome className={styles.bgIcon} />
-            home page
+            <RiHomeWifiLine className={styles.bgIcon} />
+            go back
           </a>
         </Link>
       </div>
