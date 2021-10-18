@@ -1,7 +1,6 @@
 import styles from "@/styles/Heading.module.css";
-import { FaGithub, FaDev } from "react-icons/fa";
-import { GrMail } from "react-icons/gr";
-import { IoCodeSlashOutline } from "react-icons/io5";
+import { FaGithub, FaDev, FaStackOverflow } from "react-icons/fa";
+import { GiMailbox } from "react-icons/gi";
 import Link from "next/link";
 
 function Header() {
@@ -15,16 +14,6 @@ function Header() {
         Web Developer, Designer, Self-Taught Programmer
       </h2>
       <div className={styles.icons}>
-        <Link href="mailto:golikmariusz@yahoo.com">
-          <a>
-            <GrMail className={styles.icon} />
-          </a>
-        </Link>
-        {/* <Link href="https://forum.pasja-informatyki.pl/user/MarioG8">
-          <a target="_blank" rel="noreferrer">
-            <IoCodeSlashOutline className={styles.icon} />
-          </a>
-        </Link> */}
         <Link href="https://dev.to/mariog8">
           <a target="_blank" rel="noreferrer">
             <FaDev className={styles.icon} />
@@ -33,6 +22,16 @@ function Header() {
         <Link href="https://github.com/MarioG8">
           <a target="_blank" rel="noreferrer">
             <FaGithub className={styles.icon} />
+          </a>
+        </Link>
+        <Link href="https://stackoverflow.com/users/13705979/mariog8">
+          <a target="_blank" rel="noreferrer">
+            <FaStackOverflow className={styles.icon} />
+          </a>
+        </Link>
+        <Link href="mailto:golikmariusz@yahoo.com">
+          <a>
+            <GiMailbox className={styles.icon} />
           </a>
         </Link>
       </div>

@@ -30,7 +30,7 @@ function BootcampsPage() {
             title="React.js Dec 2020"
             subtitle="React Complete Guide (Hooks, Router, Redux)"
             icon={<FaReact size={45} color="#0fb0e6" />}
-            link="https://academind.com/"
+            link="https://academind.com/courses/"
           />
           <Item
             img="/images/javascript.jpg"
@@ -44,7 +44,7 @@ function BootcampsPage() {
             title="Next.js Apr/May 2021"
             subtitle="Next.js & React.js - The Complete Guide 2021"
             icon={<GiTriangleTarget size={45} color="black" />}
-            link="https://academind.com/"
+            link="https://academind.com/courses/"
           />
           <Item
             img="/images/node_001.jpg"
@@ -65,7 +65,7 @@ function BootcampsPage() {
             title="JavaScript Sept/2021 in progress.."
             subtitle="JavaScript Complete Guide 2021 (Beginner + Advanced)"
             icon={<DiJavascript1 size={45} color="gold" />}
-            link="https://academind.com/"
+            link="https://academind.com/courses/"
           />
         </div>
       </main>
