@@ -8,7 +8,6 @@ function Card(props) {
     <div className={styles.card}>
       <Image
         src={props.img}
-        alt="images"
         height={400}
         width={630}
         className={styles.card_img}

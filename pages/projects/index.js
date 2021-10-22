@@ -18,9 +18,9 @@ function ProjectsPage() {
         <Card
           img="/images/thunder.jpg"
           date="25 Oct 2020"
-          lang="Html, CSS, JS"
-          title="Simple Js Weather App"
-          description="Simple JavaScript weather app built with  Html, Css, and Vanilla JavaScript, external Api from openweathermap.org
+          lang="Html, CSS, JavaScript"
+          title="Weather App"
+          description="Weather App built with  Html, Css, and Vanilla JavaScript, external Api from openweathermap.org
           Daily weather(cloudiness, temp) around the world, for the city selected by the user."
           link="https://weather-application-mario.netlify.app/"
           git="https://github.com/MarioG8/Weather-App"
@@ -28,7 +28,7 @@ function ProjectsPage() {
         <Card
           img="/images/killerwhale.jpg"
           date="5 Jan 2021"
-          lang="Html, CSS, JS"
+          lang="Html, CSS, JavaScript"
           title="Surfing School Website"
           description="Full responsive Single Page Website, built with Html,   Sass, Vanilla JavaScript, GSAP animation, custom animated icons and contact form. A Business page about water sports. Windsurfing and Surfing school."
           link="https://killerwhale.netlify.app/"
@@ -88,6 +88,16 @@ function ProjectsPage() {
           description="Real time Web application built with Node.js, Websocket, Socket.io and Mustache template syntax. The Chat App with real time data transfer and simple responsive design layout. An application that enables communication, writing messages between users in web browser. Deployed on heroku."
           link="https://mariog8-chat-app.herokuapp.com/"
           git="https://github.com/MarioG8/Node.js-Chat-App-"
+        />
+        <Card
+          img="/images/beach_5.jpg"
+          date="22 October 2021"
+          lang="Node.js, Express"
+          title="Weather App 2.0"
+          description="Weather App 2.0(Client side/Server side) built with  Html, Css, JavaScript, Node.js, Express, cors, Own proxy server with rate limit, api caching. External Api from openweathermap.org.
+            Daily weather(cloudiness, temp) around the world, for the city selected by the user."
+          link="https://weather-app-v2-proxy-api.herokuapp.com/"
+          git="https://github.com/MarioG8/Weather-App-2.0-API-Proxy-Server"
         />
       </main>
     </>
