@@ -62,10 +62,17 @@ function BootcampsPage() {
           />
           <Item
             img="/images/javascript.jpg"
-            title="JavaScript Sept/2021 in progress.."
+            title="JavaScript Sept/2022 in progress.."
             subtitle="JavaScript Complete Guide 2021 (Beginner + Advanced)"
             icon={<DiJavascript1 size={45} color="gold" />}
             link="https://academind.com/courses/"
+          />
+          <Item
+            img="/images/mern.jpg"
+            title="React.js MongoDB, Node.js, Express. Dec/2021 - Apr/2022"
+            subtitle="React Front To Back 2022"
+            icon={<FaReact size={45} color="#0fb0e6" />}
+            link="https://www.udemy.com/course/react-front-to-back-2022/"
           />
         </div>
       </main>
