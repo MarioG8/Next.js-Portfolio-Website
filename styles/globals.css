@@ -9,6 +9,7 @@
   --alternative-color-three: #8eef9e;
   --alternative-color-four: rgba(102, 31, 225, 0.705);
   --alternative-color-five: #0751a5;
+  --alternative-color-six: rgba(255, 0, 0, 0.777);
   --header-color-one: #1e9add;
   --primary-text-color: rgba(199, 199, 199, 0.842);
   --secondary-text-color: rgb(175, 31, 156);
@@ -35,7 +36,7 @@
   width: 46px;
   height: 3px;
   margin: 0 0 9px 0;
-  background: rgba(65, 246, 95, 0.623);
+  background: var(--primary-color);
 
   transition: all 0.3s ease-out;
 }

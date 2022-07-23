@@ -12,7 +12,7 @@ function NotFound() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.replace("/");
-    }, 10000);
+    }, 100000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -25,7 +25,7 @@ function NotFound() {
       <div className={styles.bgWrap}>
         <Image
           alt="Sepia, Code on the laptop computer"
-          src="/images/code_011.jpg"
+          src="/images/404_003.jpg"
           layout="fill"
           objectFit="cover"
           quality={100}

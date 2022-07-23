@@ -18,14 +18,16 @@
 .bgText > h2 {
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: var(--alternative-color-six);
 }
 
 .bgText > h4 {
-  color: var(--primary-text-color);
+  color: var(--alternative-color-six);
   font-size: 2.1rem;
   font-weight: 300;
   padding: 0.6rem 1rem;
-  background: rgba(204, 230, 235, 0.12);
+  /* background: rgba(204, 230, 235, 0.12); */
+  background: rgba(209, 50, 50, 0.149);
   border-radius: 3px;
 }
 
@@ -34,8 +36,8 @@
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
-  color: var(--primary-text-color);
-  border: 1px solid var(--primary-text-color);
+  color: var(--alternative-color-six);
+  border: 1px solid var(--alternative-color-six);
   background: rgba(204, 230, 235, 0.12);
   padding: 0.5em 1.25em;
   border-radius: 0.25em;
@@ -45,13 +47,12 @@
 .bgLink:hover,
 .bgLink:focus {
   background-color: transparent;
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
+  border: 1px solid var(--alternative-color-two);
+  color: var(--alternative-color-two);
 }
 
 .bgImg {
   object-position: bottom;
-  filter: sepia(100%);
 }
 
 .bgIcon {
