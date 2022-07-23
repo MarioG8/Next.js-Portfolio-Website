@@ -12,7 +12,7 @@ function NotFound() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.replace("/");
-    }, 100000);
+    }, 10000);
     return () => clearTimeout(timer);
   }, []);
 
