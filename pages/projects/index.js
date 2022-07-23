@@ -45,7 +45,7 @@ function ProjectsPage() {
           git="https://github.com/MarioG8/React-Stoa-Website-"
         />
         <Card
-          img="/images/code_011.jpg"
+          img="/images/404_006.jpg"
           date="15 June 2021"
           lang="Next.js"
           title="Portfolio Website"
