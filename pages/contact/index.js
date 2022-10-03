@@ -37,7 +37,7 @@ function ContactPage() {
           />
           <Item
             img="/images/cracow_001.jpg"
-            title="Cracow 30-698 Family Str 5"
+            title="Factory Str 55"
             subtitle="Address"
             icon={<ImAddressBook size={45} />}
           />
