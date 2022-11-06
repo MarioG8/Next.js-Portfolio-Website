@@ -42,18 +42,18 @@ function AboutPage() {
             </p>
             <p>
               <strong className={styles.strong}>After</strong> gaining
-              foundation of knowledge about web development(Html, Css, Js), my
-              learning focused on Python. Basics of Python, Object oriented
-              programming as well as the basics of Data Science, the Pygame
-              library and the Django framework.
+              foundation of knowledge about web development(Html, Css,
+              JavaScript), my learning focused on Python. Basics of Python,
+              Object oriented programming as well as the basics of Data Science,
+              the Pygame library and the Django framework.
             </p>
             <p>
               <strong className={styles.strong}>Presently</strong> my favorite
               programming language is JavaScript. Both from the front-end Js and
-              frameworks like(React.js Next.js Gatsby.js) and the server side
-              (Node.js). My stronger side is currently the front-end, but I am
-              doing my best to balance my knowledge and I am also focusing on
-              learning the back-end (Node.js)
+              frameworks like(React.js, Next.js) and the server side, backend
+              (Node.js, Express). My stronger side is currently the front-end,
+              but I am doing my best to balance my knowledge and I am also
+              focusing on learning the back-end (Node.js, Express, mongoDB)
             </p>
             <p>
               <strong className={styles.strong}>My</strong> dream and goal, in

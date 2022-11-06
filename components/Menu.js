@@ -23,7 +23,7 @@ function Header(props) {
         <div className={menu ? "menu-branding" : "menu-branding show"}>
           <div className="portrait-img-2">
             <Image
-              src="/images/cv_000.jpg"
+              src="/images/mario_007.jpg"
               width={280}
               height={400}
               quality={100}
