@@ -104,7 +104,7 @@ function ProjectsPage() {
           date="10 November 2022"
           lang="React.js, TailwindCSS"
           title="Spotify Clone 2.0.1"
-          description="Spotify Clone Application with music player, search , lyrics, popular music near by U, worldwide top charts, and much more.Built with React.js, Redux, Axios, Tailwindcss, React-icons and Swiper. External API from RapidAPI - 'Shazam Core API' and Geolocation API from ipify.org"
+          description="Spotify Clone Application with music player, search, lyrics, popular music near by U, worldwide top charts, and much more.Built with React.js, Redux, Axios, Tailwindcss, React-icons and Swiper. External API from RapidAPI - 'Shazam Core API' and Geolocation API from ipify.org"
           link="https://mariog8-muisc-app.netlify.app"
           git="https://github.com/MarioG8/Spotify-Clone-2.0.1"
         />
