@@ -59,7 +59,7 @@ function ProjectsPage() {
           lang="Node.js, Express"
           title="Email Application"
           description="Node.js and Express application using handlebars and Nodemailer module add to simple responsive contact form. Nodemailer - module for node.js apps to allow easy email sending to list of users which we will specify. Deployed on the heroku."
-          link="https://nodejs-email-app.herokuapp.com/"
+          link="https://mariog8-email-app.onrender.com"
           git="https://github.com/MarioG8/Node.js-Email-App"
         />
         <Card
@@ -68,7 +68,7 @@ function ProjectsPage() {
           lang="Node.js, MongoDB"
           title="Task Manager API"
           description="CRUD Task List API application built with node.js, express, mongoDB and fontAwesome(icons). It has four basic functionality: Create, Read, Update and Delete. All persisting data is on a database(mongoDB). Responsive layout. Deployed on the heroku."
-          link="https://node-task-list-app.herokuapp.com/"
+          link="https://mariog8-tasklist-app.onrender.com"
           git="https://github.com/MarioG8/Node.js-Task-Manager-API"
         />
         <Card
