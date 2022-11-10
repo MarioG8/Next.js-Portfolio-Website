@@ -100,7 +100,7 @@ function ProjectsPage() {
           git="https://github.com/MarioG8/Weather-App-2.0-API-Proxy-Server"
         />
         <Card
-          img="/images/music_004.jpg"
+          img="/images/music_002.jpg"
           date="10 November 2022"
           lang="React.js, TailwindCSS"
           title="Spotify Clone 2.0.1"
