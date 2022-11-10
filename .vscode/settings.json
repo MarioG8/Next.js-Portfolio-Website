@@ -1,19 +1,21 @@
 {
-    "cSpell.words": [
-        "Bootcamps",
-        "GSAP",
-        "Hmtl",
-        "Matplotlib",
-        "Pygame",
-        "Schafer",
-        "Seaborn",
-        "bootcamp",
-        "firstname",
-        "killerwhale",
-        "lastname",
-        "minmax",
-        "noreferrer",
-        "openweathermap",
-        "tailwindcss"
-    ]
+  "cSpell.words": [
+    "bootcamp",
+    "Bootcamps",
+    "firstname",
+    "GSAP",
+    "Hmtl",
+    "ipify",
+    "killerwhale",
+    "lastname",
+    "Matplotlib",
+    "minmax",
+    "noreferrer",
+    "openweathermap",
+    "Pygame",
+    "Schafer",
+    "Seaborn",
+    "Shazam",
+    "tailwindcss"
+  ]
 }

@@ -86,7 +86,7 @@ function ProjectsPage() {
           lang="Node.js, Socket.io"
           title="Chat Application"
           description="Real time Web application built with Node.js, Websocket, Socket.io and Mustache template syntax. The Chat App with real time data transfer and simple responsive design layout. An application that enables communication, writing messages between users in web browser. Deployed on heroku."
-          link="https://mariog8-chat-app.herokuapp.com/"
+          link="https://mariog8-chat-app.onrender.com"
           git="https://github.com/MarioG8/Node.js-Chat-App-"
         />
         <Card
@@ -98,6 +98,15 @@ function ProjectsPage() {
             Daily weather(cloudiness, temp) around the world, for the city selected by the user."
           link="https://weather-app-v2-proxy-api.herokuapp.com/"
           git="https://github.com/MarioG8/Weather-App-2.0-API-Proxy-Server"
+        />
+        <Card
+          img="/images/music_001.jpg"
+          date="10 November 2022"
+          lang="React.js, TailwindCSS"
+          title="Spotify Clone 2.0.1"
+          description="Spotify Clone App 'Melody App' with music player, search , lyrics, popular music near by U, worldwide top charts, and much more... Built with React.js, Redux, Axios, Tailwindcss, React-icons and Swiper. External API from RapidAPI - 'Shazam Core API' and Geolocation API from ipify.org"
+          link="https://mariog8-muisc-app.netlify.app"
+          git="https://github.com/MarioG8/Spotify-Clone-2.0.1"
         />
       </main>
     </>
