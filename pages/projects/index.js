@@ -96,7 +96,7 @@ function ProjectsPage() {
           title="Weather App 2.0"
           description="Weather App 2.0(Client side/Server side) built with  Html, Css, JavaScript, Node.js, Express, cors, Own proxy server with rate limit, api caching. External Api from openweathermap.org.
             Daily weather(cloudiness, temp) around the world, for the city selected by the user."
-          link="https://weather-app-v2-proxy-api.herokuapp.com/"
+          link="https://mariog8-weather-app-v2-proxy-server.onrender.com"
           git="https://github.com/MarioG8/Weather-App-2.0-API-Proxy-Server"
         />
         <Card
