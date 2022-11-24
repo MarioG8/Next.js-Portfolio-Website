@@ -1,5 +1,5 @@
 import styles from "@/styles/Heading.module.css";
-import { FaGithub, FaDev, FaStackOverflow } from "react-icons/fa";
+import { FaGithub, FaDev, FaStackOverflow, FaLinkedin } from "react-icons/fa";
 import { GiMailbox } from "react-icons/gi";
 import Link from "next/link";
 
@@ -14,9 +14,9 @@ function Header() {
         Web Developer, Designer, Self-Taught Programmer
       </h2>
       <div className={styles.icons}>
-        <Link href="https://dev.to/mariog8">
+        <Link href="https://www.linkedin.com/in/mariusz-golik-712482258/">
           <a target="_blank" rel="noreferrer">
-            <FaDev className={styles.icon} />
+            <FaLinkedin className={styles.icon} />
           </a>
         </Link>
         <Link href="https://github.com/MarioG8">
