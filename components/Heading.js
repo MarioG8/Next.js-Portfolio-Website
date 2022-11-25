@@ -1,6 +1,6 @@
 import styles from "@/styles/Heading.module.css";
-import { FaGithub, FaDev, FaStackOverflow, FaLinkedin } from "react-icons/fa";
-import { GiMailbox } from "react-icons/gi";
+import { FaGithub, FaStackOverflow, FaLinkedin } from "react-icons/fa";
+import { GiMailbox, GrLinkedin } from "react-icons/gi";
 import Link from "next/link";
 
 function Header() {

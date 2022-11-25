@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "@/styles/About.module.css";
-import { FaGithub, FaDev, FaStackOverflow } from "react-icons/fa";
+import { FaGithub, FaStackOverflow } from "react-icons/fa";
 import { GiMailbox } from "react-icons/gi";
+import { GrLinkedin } from "react-icons/gr";
 import AwesomeCard from "@/components/AwesomeCard";
 import BootCampCard from "@/components/BootcampCard";
 import Showcase from "@/components/Showcase";
@@ -63,9 +64,9 @@ function AboutPage() {
               JavaScript developer.
             </p>
             <div className={styles.icons}>
-              <Link href="https://dev.to/mariog8">
+              <Link href="https://www.linkedin.com/in/mariusz-golik-712482258/">
                 <a target="_blank" rel="noreferrer">
-                  <FaDev className={styles.icon} />
+                  <GrLinkedin className={styles.icon} />
                 </a>
               </Link>
               <Link href="https://github.com/MarioG8">
@@ -104,13 +105,13 @@ function AboutPage() {
           <AwesomeCard
             img="/images/html_001.png"
             title="Fundamentals"
-            description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap and Tailwind, Adobe XD, Git, Github, devtools(firefox, chrome)"
+            description="Hmtl 5 and CSS3, Sass/Scss, Bootstrap 5 and Tailwindcss, Adobe XD, Git, Github, devtools(firefox, chrome)"
             link="https://developer.mozilla.org/en-US/docs/Learn"
           />
           <AwesomeCard
             img="/images/js.png"
             title="JavaScript"
-            description="Vanilla JavaScript, Node.js & Express, mongoDB, React.js, Gatsby.js, Next.js"
+            description="Vanilla JavaScript, Node.js & Express, mongoDB, React.js, Next.js"
             link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           />
           <AwesomeCard
